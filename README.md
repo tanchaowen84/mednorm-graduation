@@ -13,8 +13,8 @@
 
 ## 下载与第一次复核
 
-- [GitHub Release](https://github.com/tanchaowen84/mednorm-graduation/releases/tag/research-handoff-2026-10-04)：公开阅读包、完整公开研究包（含13个正式FP16模型）、分卷合并脚本与SHA-256清单。
-- [下载与合并说明](获取完整资料.md)。GitHub代码目录保留正式代码、组件结果、最终预测、复算所需的原型证据和数据准备入口；模型权重在Release中。
+- [GitHub Release](https://github.com/tanchaowen84/mednorm-graduation/releases/tag/research-handoff-2026-10-04)：公开阅读包及完整公开研究包（含13个正式FP16模型）。只需下载 [download_complete.py](https://github.com/tanchaowen84/mednorm-graduation/releases/download/research-handoff-2026-10-04/download_complete.py)，运行 `python3 download_complete.py`，直接得到一个完整ZIP，无需手动下载或合并分卷。
+- [完整ZIP下载说明](获取完整资料.md)。GitHub单个Release附件必须小于2 GiB；9.29 GiB完整包在服务端分段保存，自动下载脚本直接写入并校验一个ZIP。GitHub代码目录保留正式代码、组件结果、最终预测、复算所需的原型证据和数据准备入口；模型权重在Release中。
 - 原始CHIP-CDN、ICD标准表、CPubMed-KG及图谱派生缓存不在公开包中重复镜像，按[数据获取说明](实验/数据/README.md)从官方取得。已提供原始文件哈希和准备脚本。
 
 ```bash

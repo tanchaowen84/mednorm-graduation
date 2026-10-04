@@ -23,9 +23,14 @@
       "sha256": "49c753734232c8743f8737d31ed6160674cde3f9a6099db4897f94853ec43248"
     },
     {
+      "local_path": "GitHub下载工具/download_complete.py",
+      "size": 8805,
+      "sha256": "40aa6b8918ac687fe48ac3596570dd3b8d60ea593208809c09876c81e4127ec3"
+    },
+    {
       "local_path": "README.md",
-      "size": 3432,
-      "sha256": "4760955f9572345cc31174352e861aa48522151679f1d60a5965d4f4e7d8afe5"
+      "size": 3798,
+      "sha256": "35e9f155e80a9502bff0f9ae34bab147f85e28a74223f1f0cfe0fe742bda721c"
     },
     {
       "local_path": "THIRD_PARTY_NOTICES.md",
@@ -684,8 +689,8 @@
     },
     {
       "local_path": "获取完整资料.md",
-      "size": 1583,
-      "sha256": "5d2b5a8c6941de07be90da63c03721f46760c437f4d36937c5d14450f7309134"
+      "size": 2821,
+      "sha256": "d2561c58836217478aa6ff688be2db5e48def3bf9c04b31f69ae6e7973e2716a"
     },
     {
       "local_path": "论文/assets/fonts/NotoSansCJKsc-Regular.otf",
