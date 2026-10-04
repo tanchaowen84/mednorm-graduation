@@ -1,0 +1,81 @@
+{
+  "audit_used": true,
+  "config_id": "O4-FUSION-HGB15-W8-v1",
+  "counts": {
+    "mention_count": {
+      "1": 1113,
+      "2": 702,
+      "3": 116,
+      "4": 36,
+      "5": 14,
+      "6": 9,
+      "7": 7,
+      "8": 1,
+      "9": 2
+    },
+    "parse_status": {
+      "model_json": 1987,
+      "model_json_filtered": 2,
+      "rule_fallback": 11
+    },
+    "samples": 2000
+  },
+  "evaluation_split": "official_dev",
+  "generation": {
+    "batch_size": 16,
+    "do_sample": false,
+    "max_input_length": 768,
+    "max_new_tokens": 128,
+    "maximum_mentions": 16,
+    "seed": 2026
+  },
+  "input_manifest": {
+    "audit_used": true,
+    "config_id": "O4-FUSION-HGB15-W8-v1",
+    "evaluation_split": "official_dev",
+    "input_sha256": {
+      "authorization": "19d8a7bd53163b594ffcf4d8a7c86e7937255baeb19958a0743c3f1ce0937ae2",
+      "official_dev": "450115dafed5df45d7559edab55546f6f6d43dc9f439716210ad388d2e4b8865"
+    },
+    "labels_included": false,
+    "official_dev_touched": true,
+    "output_sha256": {
+      "official_dev_texts.jsonl.gz": "ee5c9cea94dc64b8293a12448840d5731f3a117c94da3630a3a894a5f85af038"
+    },
+    "protocol": "Strict-ICD",
+    "sample_count": 2000,
+    "selection_complete": true,
+    "spec_id": "MEDNORM-P1-003",
+    "stage": "O7_OFFICIAL_DEV_ATOMIC_INPUT"
+  },
+  "input_manifest_sha256": "079cfb7b8da4e8f8fd07da84742c18e79fc00965acd0541837b5c63ac9ee7282",
+  "labels_used": false,
+  "mode": "full",
+  "model": {
+    "inference_only": true,
+    "name": "Qwen/Qwen2.5-7B-Instruct",
+    "requested_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "resolved_revision": "a09a35458c702b33eeacc393d103063234e8bc28"
+  },
+  "official_dev_touched": true,
+  "output_sha256": {
+    "official_dev_atomic_mentions.jsonl.gz": "e549151e792d6614693642e62a0b56eaaca6fb127bd3ad5ac78ef660906fa969"
+  },
+  "prompt": {
+    "policy": "source-supported atomic decomposition without normalization",
+    "sha256": "b64775f1b35076881977d465eb76f83a8bad898700aab26256e24a96b82781a8"
+  },
+  "protocol": "Strict-ICD",
+  "runtime": {
+    "device": "cuda",
+    "dtype": "torch.bfloat16",
+    "elapsed_seconds": 216.37036800384521,
+    "gpu_name": "NVIDIA A100-SXM4-40GB",
+    "peak_memory_bytes": 16418537984,
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6"
+  },
+  "spec_id": "MEDNORM-P1-003",
+  "stage": "O7_OFFICIAL_DEV_ATOMIC_GENERATION"
+}

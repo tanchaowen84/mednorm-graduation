@@ -1,0 +1,126 @@
+{
+  "audit_used": true,
+  "candidate_k": 400,
+  "config_id": "O4-FUSION-HGB15-W8-v1",
+  "evaluation_split": "official_dev",
+  "input_sha256": {
+    "atomic": "e549151e792d6614693642e62a0b56eaaca6fb127bd3ad5ac78ef660906fa969",
+    "prototype": "8cb11c0341f816ace8931c985d70de4256383307c7d832b0c71681b55e4d3432",
+    "seed2026_bge": "4914a7414591549009986f78a9b96baf34a862797fa1933e51440d10aed94620",
+    "seed2026_kg": "bb780b291c0aec87e59500aae8260f4eba5368500d527f18debe2e5e465f6d65",
+    "seed2026_o2": "18e11706d1b6dfbb7442f4e2e285b33c38fa2f9103ca0fd1efbc0814feb7e192",
+    "seed2027_bge": "6bcdc93306864553e23537233b03b6128542f81f22448eed0cbee3046f5aea64",
+    "seed2027_kg": "9d415495d63eb9fb8d769285fc975b8272c5f851a5b684aa272af5ee706d173f",
+    "seed2027_o2": "24ed29067ea556a6cfe102bfd34e990e3016577521731eb53498baed5743944a",
+    "seed2028_bge": "9d6e135c9eb596bf439a4c3d158271f0075d0273d0ea2e6ee7abd4676a3cfaf4",
+    "seed2028_kg": "90b0439e3309e30b38c406e2e9ec2d2eecbd916f520d99b4e6afb5a81c6874a0",
+    "seed2028_o2": "68c97b6ff1788687b48505fe41257bb56f420ae6bda26e3915d7828d5b25f2e5"
+  },
+  "method": {
+    "count_ensemble": "majority vote across seeds 2026, 2027 and 2028",
+    "score_ensemble": "arithmetic mean across the three frozen seed scores",
+    "thresholds": [
+      0.75,
+      0.68,
+      0.655,
+      0.71,
+      0.76,
+      0.585
+    ],
+    "weights": [
+      1.0,
+      0.75,
+      0.1,
+      1.5,
+      0.75
+    ]
+  },
+  "official_dev": {
+    "all": {
+      "exact_match": 0.421,
+      "false_negatives": 922,
+      "false_positives": 1133,
+      "micro_f1": 0.7172926124638878,
+      "micro_precision": 0.6970588235294117,
+      "micro_recall": 0.7387361858883537,
+      "sample_count": 2000,
+      "true_positives": 2607
+    },
+    "atomic_active": {
+      "exact_match": 0.3528748590755355,
+      "false_negatives": 472,
+      "false_positives": 586,
+      "micro_f1": 0.7322874493927125,
+      "micro_precision": 0.7117560255779636,
+      "micro_recall": 0.7540385617509119,
+      "sample_count": 887,
+      "true_positives": 1447
+    },
+    "atomic_inactive": {
+      "exact_match": 0.4752920035938904,
+      "false_negatives": 450,
+      "false_positives": 547,
+      "micro_f1": 0.6994271932469098,
+      "micro_precision": 0.6795547744581136,
+      "micro_recall": 0.7204968944099379,
+      "sample_count": 1113,
+      "true_positives": 1160
+    },
+    "icd_covered": {
+      "exact_match": 0.4601092896174863,
+      "false_negatives": 707,
+      "false_positives": 976,
+      "micro_f1": 0.7507774322523323,
+      "micro_precision": 0.722016519510111,
+      "micro_recall": 0.7819247378161629,
+      "sample_count": 1830,
+      "true_positives": 2535
+    },
+    "multi_entity": {
+      "exact_match": 0.37145650048875856,
+      "false_negatives": 560,
+      "false_positives": 514,
+      "micro_f1": 0.7876631079478055,
+      "micro_precision": 0.7948922585794094,
+      "micro_recall": 0.780564263322884,
+      "sample_count": 1023,
+      "true_positives": 1992
+    },
+    "single_entity": {
+      "exact_match": 0.4728761514841351,
+      "false_negatives": 362,
+      "false_positives": 619,
+      "micro_f1": 0.5563093622795116,
+      "micro_precision": 0.4983792544570502,
+      "micro_recall": 0.6294779938587513,
+      "sample_count": 977,
+      "true_positives": 615
+    }
+  },
+  "official_dev_touched": true,
+  "output_sha256": {
+    "official_dev_predictions.jsonl.gz": "3b76452efaa9114dd0969b250530428d10d4dfb4f2817b882df541723a04e2a2"
+  },
+  "protocol": "Strict-ICD",
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "selected_method": "raw_fusion_ensemble",
+  "selection_complete": true,
+  "selection_policy": "Raw fusion weights, six count/atomic thresholds and the three-seed ensemble were fixed on pre-official data. Official dev was evaluated once.",
+  "selection_split": null,
+  "spec_id": "MEDNORM-P1-003",
+  "stage": "O7_OFFICIAL_DEV_FINAL_FUSION",
+  "three_seed": {
+    "mean": 0.7113919813842063,
+    "micro_f1": [
+      0.7119341563786008,
+      0.7148122866894198,
+      0.7074295010845987
+    ],
+    "std": 0.003721135057357939
+  },
+  "train_split": "official_train"
+}

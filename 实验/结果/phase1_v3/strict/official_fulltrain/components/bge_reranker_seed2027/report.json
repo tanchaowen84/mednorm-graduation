@@ -1,0 +1,159 @@
+{
+  "audit_used": true,
+  "component": "bge_reranker",
+  "config_id": "O4-FUSION-HGB15-W8-v1",
+  "decoder": {
+    "candidate_k": 400,
+    "retrieval_weight": 0.3,
+    "selection_source": "prior tune split"
+  },
+  "evaluation_split": "official_dev",
+  "fixed_count_report_sha256": "1ec00410e72dc4a5bcd0560d6ca1f495555095457cbe9d5a206cfe59bfe51849",
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 359,
+      "train_loss": 1.911725540782914
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 359,
+      "train_loss": 1.3012928102985233
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 359,
+      "train_loss": 1.0398105898908336
+    }
+  ],
+  "input_manifest": {
+    "audit_used": true,
+    "candidate_k": 400,
+    "candidate_source": "full-train BGE plus sparse RRF",
+    "candidate_vocabulary_source": "ICD only",
+    "config_id": "O4-FUSION-HGB15-W8-v1",
+    "counts": {
+      "covered_official_train_samples": 5742,
+      "icd_candidate_count": 37645,
+      "official_dev_samples": 2000,
+      "official_train_positive_labels": 10386,
+      "official_train_positive_labels_in_top_k": 10164,
+      "official_train_samples": 6000
+    },
+    "evaluation_split": "official_dev",
+    "input_sha256": {
+      "catalog": "97da4cd30fc9b66e48453293c6b5527151c29ee2789d479780f70ab7b25b8e8a",
+      "official_dev": "450115dafed5df45d7559edab55546f6f6d43dc9f439716210ad388d2e4b8865",
+      "official_dev_candidates": "1898e585b96559bdd63b406c156067bc0fa4cfde7cabb0fe3deff829581282b4",
+      "official_train": "8a600859d75287a608c3508e73c7041388b65be20a3a29430d57110cabb82cfe",
+      "official_train_candidates": "356c028cc15d23d45abeed2faddfd01a86fbd45a84e11ec197ef9281fbeb3cda",
+      "retriever_report": "086fd73715e4cb32481541f15f1e8117576bc41b5990fbf2f52bdc758d079c42"
+    },
+    "kg_enabled": false,
+    "leakage_policy": "Only official-train labels create ranking groups and count targets. Official-dev labels remain attached only to the final evaluation bundles.",
+    "negative_pool_size": 96,
+    "official_dev_touched": true,
+    "output_sha256": {
+      "official_dev_candidates.jsonl.gz": "a435d624373e307701ac859d50c06f21c273db08510ff8ab9c63d0966da9ccba",
+      "official_train_count.jsonl.gz": "1e5ef6f33ba0c9427bb89d2f1fdd04ebe3076833387509e1f816db6d499d6cbe",
+      "official_train_groups.jsonl.gz": "454b3f90d752958cf4b49c1d73c6287c298d7a92190cb7907f9fe9cb78afaf45"
+    },
+    "protocol": "Strict-ICD",
+    "rrf_constant": 60,
+    "seed": 2026,
+    "selection_complete": true,
+    "selection_split": null,
+    "spec_id": "MEDNORM-P1-003",
+    "stage": "O6_OFFICIAL_FULLTRAIN_RANKING_DATA",
+    "train_split": "official_train"
+  },
+  "input_manifest_sha256": "5a03cbfd58b99d0efc1f3607d1d0a18c6719116393168f96e1da3be597ed90ca",
+  "leakage_policy": "The epoch and decoder weight were frozen before official dev. Dev labels are used only for reporting after all ranker scores are fixed.",
+  "model": {
+    "checkpoint_precision": "float32",
+    "frozen_epoch": 3,
+    "name": "BAAI/bge-reranker-v2-m3",
+    "requested_revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+    "resolved_revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+    "sha256": "3e7b5a4c1d961bd74c0870cac3bfefb7e2c801cf7f60e9ff14faeea2268a3fd0"
+  },
+  "official_dev": {
+    "samples": 2000,
+    "segmented": {
+      "all": {
+        "exact_match": 0.374,
+        "false_negatives": 1384,
+        "false_positives": 1215,
+        "micro_f1": 0.6227318914211061,
+        "micro_precision": 0.6383928571428571,
+        "micro_recall": 0.6078209124397846,
+        "sample_count": 2000,
+        "true_positives": 2145
+      },
+      "icd_covered": {
+        "exact_match": 0.4087431693989071,
+        "false_negatives": 1155,
+        "false_positives": 999,
+        "micro_f1": 0.6596080910240202,
+        "micro_precision": 0.6762799740764744,
+        "micro_recall": 0.6437384330660086,
+        "sample_count": 1830,
+        "true_positives": 2087
+      },
+      "multi_entity": {
+        "exact_match": 0.33235581622678395,
+        "false_negatives": 935,
+        "false_positives": 575,
+        "micro_f1": 0.6817032040472175,
+        "micro_precision": 0.7376824817518248,
+        "micro_recall": 0.6336206896551724,
+        "sample_count": 1023,
+        "true_positives": 1617
+      },
+      "single_entity": {
+        "exact_match": 0.41760491299897645,
+        "false_negatives": 449,
+        "false_positives": 640,
+        "micro_f1": 0.49230769230769234,
+        "micro_precision": 0.4520547945205479,
+        "micro_recall": 0.5404298874104401,
+        "sample_count": 977,
+        "true_positives": 528
+      }
+    }
+  },
+  "official_dev_touched": true,
+  "output_sha256": {
+    "best_model/model.safetensors": "3e7b5a4c1d961bd74c0870cac3bfefb7e2c801cf7f60e9ff14faeea2268a3fd0",
+    "official_dev_scored_predictions.jsonl.gz": "6bcdc93306864553e23537233b03b6128542f81f22448eed0cbee3046f5aea64"
+  },
+  "protocol": "Strict-ICD",
+  "runtime": {
+    "amp_dtype": "torch.bfloat16",
+    "device": "cuda",
+    "elapsed_seconds": 1128.0692067146301,
+    "gpu_name": "NVIDIA A100-SXM4-40GB",
+    "peak_memory_bytes": 11480082944,
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128"
+  },
+  "selection_complete": true,
+  "selection_split": null,
+  "spec_id": "MEDNORM-P1-003",
+  "stage": "O7_OFFICIAL_DEV_BGE_RERANKER_RANKER",
+  "train_split": "official_train",
+  "training": {
+    "executed_epochs": 3,
+    "gradient_accumulation": 4,
+    "group_batch_size": 4,
+    "groups": 5742,
+    "learning_rate": 2e-05,
+    "loss_mode": "listwise_hybrid",
+    "negative_count": 15,
+    "planned_epochs": 3,
+    "seed": 2027,
+    "top_hard_count": 8,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01
+  }
+}

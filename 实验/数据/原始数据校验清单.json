@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "raw/chip-cdn/CHIP-CDN_test.json",
+      "size": 984428,
+      "sha256": "68eab266570b728370ba548987254d141202b3c848d9868fa9192b0556f50551"
+    },
+    {
+      "path": "raw/chip-cdn/CHIP-CDN_train.json",
+      "size": 707117,
+      "sha256": "636b82fbfb78ca23287494ddbf15940263b6a5a2009f05d9a603f68163316f5a"
+    },
+    {
+      "path": "raw/chip-cdn/国际疾病分类 ICD-10北京临床版v601.xlsx",
+      "size": 1472320,
+      "sha256": "00f6040c608ae908e0310f44a9d49d436cb4b69f4d8a52ddb12fc9a4e85166a1"
+    },
+    {
+      "path": "raw/chip-cdn/CHIP-CDN_dev.json",
+      "size": 232967,
+      "sha256": "205a79d4d03da7fe5eef9010a892a63068f47fd28b8bc42572687f89106aa850"
+    },
+    {
+      "path": "raw/cpubmedkg/CPubMed-KGv2_0.txt",
+      "size": 278665209,
+      "sha256": "e963c3b72f23d689bfe86667f12bfb1c42c3506f1af1ec34e394a7eed82eaaac"
+    }
+  ]
+}

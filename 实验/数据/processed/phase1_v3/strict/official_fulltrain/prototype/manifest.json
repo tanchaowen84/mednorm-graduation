@@ -1,0 +1,47 @@
+{
+  "audit_used": true,
+  "candidate_vocabulary_source": "ICD only",
+  "config_id": "O4-FUSION-HGB15-W8-v1",
+  "counts": {
+    "candidate_features": 800000,
+    "candidate_k": 400,
+    "nonzero_prototype_features": 59615,
+    "official_dev_samples": 2000,
+    "official_train_samples": 6000,
+    "vectorizer_vocabulary": 82439
+  },
+  "evaluation_split": "official_dev",
+  "input_sha256": {
+    "catalog": "97da4cd30fc9b66e48453293c6b5527151c29ee2789d479780f70ab7b25b8e8a",
+    "official_dev_candidates": "a435d624373e307701ac859d50c06f21c273db08510ff8ab9c63d0966da9ccba",
+    "official_train": "8a600859d75287a608c3508e73c7041388b65be20a3a29430d57110cabb82cfe",
+    "ranking_manifest": "5a03cbfd58b99d0efc1f3607d1d0a18c6719116393168f96e1da3be597ed90ca"
+  },
+  "leakage_policy": "The vectorizer and label memory fit on official train only. Official-dev text is transform-only and dev labels are not read by prototype scoring.",
+  "method": "full-train character TF-IDF weighted label-neighbor memory",
+  "official_dev_touched": true,
+  "output_sha256": {
+    "official_dev_prototype_evidence.jsonl.gz": "8cb11c0341f816ace8931c985d70de4256383307c7d832b0c71681b55e4d3432"
+  },
+  "policy": {
+    "analyzer": "char",
+    "label_aggregation": "sum(similarity / label_hit_rank)",
+    "maximum_hits_per_label": 10,
+    "neighbor_count": 100,
+    "ngram_range": [
+      1,
+      4
+    ],
+    "norm": "l2",
+    "sublinear_tf": true
+  },
+  "protocol": "Strict-ICD",
+  "runtime": {
+    "scikit_learn": "1.9.0"
+  },
+  "selection_complete": true,
+  "selection_split": null,
+  "spec_id": "MEDNORM-P1-003",
+  "stage": "O7_OFFICIAL_DEV_PROTOTYPE_EVIDENCE",
+  "train_split": "official_train"
+}

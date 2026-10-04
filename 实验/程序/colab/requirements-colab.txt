@@ -1,0 +1,4 @@
+transformers==4.57.6
+accelerate==1.14.0
+sentencepiece==0.2.2
+scikit-learn==1.9.0

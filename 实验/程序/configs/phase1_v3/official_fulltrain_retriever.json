@@ -1,0 +1,22 @@
+{
+  "batch_size": 128,
+  "drive_root": "gdrive:毕业设计/MEDNORM-P1-003-official-fulltrain-v1",
+  "encode_batch_size": 512,
+  "gradient_accumulation": 1,
+  "hard_negative_count": 8,
+  "learning_rate": 0.00002,
+  "main_k": 400,
+  "max_length": 48,
+  "model_name": "BAAI/bge-base-zh-v1.5",
+  "model_revision": "f03589ceff5aac7111bd60cfc7d497ca17ecac65",
+  "output_name": "official_fulltrain_retriever",
+  "planned_epochs": 4,
+  "pooling": "cls",
+  "query_chunk_size": 128,
+  "retrieval_k": 800,
+  "rrf_constant": 60,
+  "seed": 2026,
+  "temperature": 0.01,
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.01
+}

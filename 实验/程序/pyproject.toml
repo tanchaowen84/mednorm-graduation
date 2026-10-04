@@ -1,0 +1,56 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mednorm"
+version = "0.1.0"
+description = "Leak-free disease entity normalization experiments for CHIP-CDN and CPubMed-KG"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "joblib>=1.4,<2",
+  "numpy>=1.26,<3",
+  "openpyxl>=3.1,<4",
+  "scikit-learn>=1.5,<2",
+  "scipy>=1.12,<2",
+]
+
+[project.optional-dependencies]
+neural-demo = [
+  "sentencepiece==0.2.2",
+  "torch==2.10.0",
+  "transformers==4.57.6",
+]
+
+[project.scripts]
+mednorm = "mednorm.cli:main"
+
+[dependency-groups]
+dev = [
+  "mypy>=1.13,<2",
+  "nbclient>=0.10,<1",
+  "nbformat>=5.10,<6",
+  "pytest>=8.3,<9",
+  "ruff>=0.9,<1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mednorm"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["third_party", "archive"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["mednorm"]
+
+[[tool.mypy.overrides]]
+module = ["joblib.*", "openpyxl.*", "scipy.*", "sklearn.*"]
+ignore_missing_imports = true

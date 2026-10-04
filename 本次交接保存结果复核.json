@@ -1,0 +1,19 @@
+{
+  "saved_prediction_validation": {
+    "status": "PASS",
+    "evaluation_split": "official_dev",
+    "selected_method": "raw_fusion_ensemble",
+    "rows": 2000,
+    "prediction_sha256": "3b76452efaa9114dd0969b250530428d10d4dfb4f2817b882df541723a04e2a2",
+    "recomputed_metrics": {
+      "sample_count": 2000,
+      "true_positives": 2607,
+      "false_positives": 1133,
+      "false_negatives": 922,
+      "micro_precision": 0.6970588235294117,
+      "micro_recall": 0.7387361858883537,
+      "micro_f1": 0.7172926124638878,
+      "exact_match": 0.421
+    }
+  }
+}

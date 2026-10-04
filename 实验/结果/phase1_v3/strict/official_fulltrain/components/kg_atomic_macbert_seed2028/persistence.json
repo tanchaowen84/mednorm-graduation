@@ -1,0 +1,97 @@
+{
+  "component": "kg_atomic_macbert",
+  "drive_root": "gdrive:毕业设计/MEDNORM-P1-003-official-fulltrain-v1",
+  "job": "kg_atomic_macbert_seed2028",
+  "model_remote": "gdrive:毕业设计/MEDNORM-P1-003-official-fulltrain-v1/models/kg_atomic_macbert/seed2028/best_model",
+  "precision": "float16",
+  "remote_files": [
+    {
+      "Hashes": {
+        "MD5": "a9901044e6e0a288368eb6542371ff7c"
+      },
+      "ID": "1sY3YoFyDrrTsIcsLKAo8-9c19S-_Z_cC",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-23T00:41:15.326Z",
+      "Name": "FP16_EXPORT_MANIFEST.json",
+      "Path": "FP16_EXPORT_MANIFEST.json",
+      "Size": 2100
+    },
+    {
+      "Hashes": {
+        "MD5": "5e9460358946c5669c062a92f271c6b4"
+      },
+      "ID": "1aiPKU4W97dofI1CUxY0GZEY8pCDM78gg",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-23T00:41:09.660Z",
+      "Name": "tokenizer.json",
+      "Path": "tokenizer.json",
+      "Size": 439376
+    },
+    {
+      "Hashes": {
+        "MD5": "3b5b76c4aef48ecf8cb3abaafe960f09"
+      },
+      "ID": "1fUB40rQ7E92EzLop9NuX_fyK9vFyL9yA",
+      "IsDir": false,
+      "MimeType": "text/plain",
+      "ModTime": "2026-08-23T00:41:09.657Z",
+      "Name": "vocab.txt",
+      "Path": "vocab.txt",
+      "Size": 109540
+    },
+    {
+      "Hashes": {
+        "MD5": "0d21dc8bbd9451f28b3609ed3dcb2375"
+      },
+      "ID": "1uiFtZ1zwC4owVo2sGOQuNqm8nHIUWjo-",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-23T00:41:09.653Z",
+      "Name": "special_tokens_map.json",
+      "Path": "special_tokens_map.json",
+      "Size": 695
+    },
+    {
+      "Hashes": {
+        "MD5": "977f8411dbc8e53171592c0af3e85cc9"
+      },
+      "ID": "1yJ9AmL_7qAu_fdpK3lSYuU_gTkLKBc9h",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-23T00:41:09.653Z",
+      "Name": "tokenizer_config.json",
+      "Path": "tokenizer_config.json",
+      "Size": 1439
+    },
+    {
+      "Hashes": {
+        "MD5": "431cc4f818733a5f87ca877cc4a3a7a5"
+      },
+      "ID": "1TmK5zo3DwRzqBhEF_FnBm6ZoY31SPJoJ",
+      "IsDir": false,
+      "MimeType": "application/octet-stream",
+      "ModTime": "2026-08-23T00:41:09.652Z",
+      "Name": "model.safetensors",
+      "Path": "model.safetensors",
+      "Size": 651093634
+    },
+    {
+      "Hashes": {
+        "MD5": "ce75c2e04aa3b29b1101e943801bc74e"
+      },
+      "ID": "15KHXEdAoHxhkVQtNXb8Ef91yhEaW7_nF",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-23T00:41:09.318Z",
+      "Name": "config.json",
+      "Path": "config.json",
+      "Size": 902
+    }
+  ],
+  "report_remote": "gdrive:毕业设计/MEDNORM-P1-003-official-fulltrain-v1/reports/kg_atomic_macbert/seed2028",
+  "resume_training_supported": false,
+  "seed": 2028,
+  "status": "VERIFIED"
+}

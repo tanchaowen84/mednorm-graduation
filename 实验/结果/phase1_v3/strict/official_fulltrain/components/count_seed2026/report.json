@@ -1,0 +1,154 @@
+{
+  "audit_used": true,
+  "config_id": "O4-FUSION-HGB15-W8-v1",
+  "evaluation_split": "official_dev",
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 94,
+      "train_loss": 0.8819864284484944
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 94,
+      "train_loss": 0.6246882886328595
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 94,
+      "train_loss": 0.4862506370595161
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 94,
+      "train_loss": 0.35973408786540334
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 94,
+      "train_loss": 0.2534946651851877
+    },
+    {
+      "epoch": 6,
+      "optimizer_updates": 94,
+      "train_loss": 0.17736784035855152
+    },
+    {
+      "epoch": 7,
+      "optimizer_updates": 94,
+      "train_loss": 0.1168261559561212
+    },
+    {
+      "epoch": 8,
+      "optimizer_updates": 94,
+      "train_loss": 0.08128712278731326
+    }
+  ],
+  "input_manifest": {
+    "audit_used": true,
+    "candidate_k": 400,
+    "candidate_source": "full-train BGE plus sparse RRF",
+    "candidate_vocabulary_source": "ICD only",
+    "config_id": "O4-FUSION-HGB15-W8-v1",
+    "counts": {
+      "covered_official_train_samples": 5742,
+      "icd_candidate_count": 37645,
+      "official_dev_samples": 2000,
+      "official_train_positive_labels": 10386,
+      "official_train_positive_labels_in_top_k": 10164,
+      "official_train_samples": 6000
+    },
+    "evaluation_split": "official_dev",
+    "input_sha256": {
+      "catalog": "97da4cd30fc9b66e48453293c6b5527151c29ee2789d479780f70ab7b25b8e8a",
+      "official_dev": "450115dafed5df45d7559edab55546f6f6d43dc9f439716210ad388d2e4b8865",
+      "official_dev_candidates": "1898e585b96559bdd63b406c156067bc0fa4cfde7cabb0fe3deff829581282b4",
+      "official_train": "8a600859d75287a608c3508e73c7041388b65be20a3a29430d57110cabb82cfe",
+      "official_train_candidates": "356c028cc15d23d45abeed2faddfd01a86fbd45a84e11ec197ef9281fbeb3cda",
+      "retriever_report": "086fd73715e4cb32481541f15f1e8117576bc41b5990fbf2f52bdc758d079c42"
+    },
+    "kg_enabled": false,
+    "leakage_policy": "Only official-train labels create ranking groups and count targets. Official-dev labels remain attached only to the final evaluation bundles.",
+    "negative_pool_size": 96,
+    "official_dev_touched": true,
+    "output_sha256": {
+      "official_dev_candidates.jsonl.gz": "a435d624373e307701ac859d50c06f21c273db08510ff8ab9c63d0966da9ccba",
+      "official_train_count.jsonl.gz": "1e5ef6f33ba0c9427bb89d2f1fdd04ebe3076833387509e1f816db6d499d6cbe",
+      "official_train_groups.jsonl.gz": "454b3f90d752958cf4b49c1d73c6287c298d7a92190cb7907f9fe9cb78afaf45"
+    },
+    "protocol": "Strict-ICD",
+    "rrf_constant": 60,
+    "seed": 2026,
+    "selection_complete": true,
+    "selection_split": null,
+    "spec_id": "MEDNORM-P1-003",
+    "stage": "O6_OFFICIAL_FULLTRAIN_RANKING_DATA",
+    "train_split": "official_train"
+  },
+  "input_manifest_sha256": "5a03cbfd58b99d0efc1f3607d1d0a18c6719116393168f96e1da3be597ed90ca",
+  "leakage_policy": "The per-seed epoch was frozen before official dev. Dev labels are used only to report count accuracy after the all-train checkpoint is fixed.",
+  "model": {
+    "checkpoint_precision": "float32",
+    "frozen_epoch": 8,
+    "name": "hfl/chinese-macbert-large",
+    "requested_revision": "1cf2677c782975600ce58e2961656b1b29eddbae",
+    "resolved_revision": "1cf2677c782975600ce58e2961656b1b29eddbae",
+    "sha256": "c82ad372036b42e913b6add2f99be17a22bd5dbed9b2ec4169d5d78a37ec452d"
+  },
+  "official_dev": {
+    "metrics": {
+      "accuracy": 0.7705,
+      "confusion_matrix": [
+        [
+          786,
+          181,
+          10
+        ],
+        [
+          166,
+          539,
+          43
+        ],
+        [
+          6,
+          53,
+          216
+        ]
+      ],
+      "macro_f1": 0.771754998346601
+    },
+    "samples": 2000
+  },
+  "official_dev_touched": true,
+  "output_sha256": {
+    "best_model/model.safetensors": "c82ad372036b42e913b6add2f99be17a22bd5dbed9b2ec4169d5d78a37ec452d",
+    "official_dev_count_predictions.jsonl.gz": "fd2a696ceb933c0813cb39be31c8528d54eae6c7cd69db70ac088cbf4b5bb73e"
+  },
+  "protocol": "Strict-ICD",
+  "runtime": {
+    "amp_dtype": "torch.bfloat16",
+    "device": "cuda",
+    "elapsed_seconds": 176.57424235343933,
+    "gpu_name": "NVIDIA A100-SXM4-40GB",
+    "peak_memory_bytes": 6607571456,
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128"
+  },
+  "selection_complete": true,
+  "selection_split": null,
+  "spec_id": "MEDNORM-P1-003",
+  "stage": "O7_OFFICIAL_DEV_COUNT",
+  "train_split": "official_train",
+  "training": {
+    "batch_size": 64,
+    "class_weighting": "none",
+    "executed_epochs": 8,
+    "gradient_accumulation": 1,
+    "learning_rate": 2e-05,
+    "official_train_samples": 6000,
+    "planned_epochs": 8,
+    "seed": 2026,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01
+  }
+}

@@ -1,0 +1,1378 @@
+{
+  "config_id": "O4-FUSION-HGB15-W8-v1",
+  "drive_root": "gdrive:毕业设计/MEDNORM-P1-003-official-fulltrain-v1",
+  "inference_reload_supported": true,
+  "model_count": 13,
+  "models": {
+    "models/bge_reranker/seed2026/best_model": {
+      "bytes": 1157717150,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "ba4ce8c349d4dbde6f19068d61ead17b",
+            "sha1": "85669eb3ba8232c16c81c581b4adc2ac65bf9b99",
+            "sha256": "741a1cd970591496da381d11278f0edc59d5485207d8fc806dd3aa2f03509228"
+          },
+          "ID": "1OgPE5CVlaj2mZhgpTrLPTceJo-_6YGub",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:28:56.220Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2136
+        },
+        {
+          "Hashes": {
+            "md5": "8ca145eb7fdfe3e859ad62fde93444aa",
+            "sha1": "210c7a96f318ca423ab4a8e4736fd86596c855ea",
+            "sha256": "1919ac24e2bc00b04ed2ec3902939854aa48b3193778f6c7e4a5043c093bbe0f"
+          },
+          "ID": "1uo6AuN8yX-q7I3ciYjt4rkGvmHuhjU9N",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:28:46.175Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 17083152
+        },
+        {
+          "Hashes": {
+            "md5": "bf25eb5120ad92ef5c7d8596b5dc4046",
+            "sha1": "7e88c49faff6c6c136fdf4a3402d0cb534c6ab10",
+            "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+          },
+          "ID": "1wF3FyWhSTGd9GNHEe7oVB0sn8BfgbV36",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T21:28:46.126Z",
+          "Name": "sentencepiece.bpe.model",
+          "Path": "sentencepiece.bpe.model",
+          "Size": 5069051
+        },
+        {
+          "Hashes": {
+            "md5": "33e57d2dda50a13c4c62ed8afb6c6773",
+            "sha1": "5209e918bacfb5ebb612158aabfadb5498b5edb8",
+            "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+          },
+          "ID": "1qwPUOYQCN265bqg6tetixwSohh2_KsGv",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:28:46.124Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 964
+        },
+        {
+          "Hashes": {
+            "md5": "ea97a85921e25983f1828cf59b30854c",
+            "sha1": "609c3865b77979ad888533761596155bf7037b85",
+            "sha256": "041792ef1de8acadb24388fdfabdf1a6f8c5da621e7bcb11bb14a9bdf8ce70ff"
+          },
+          "ID": "1rIRNQ5Z1hmJc6GtYDXW8-QlK9WaCWXfW",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:28:46.123Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1393
+        },
+        {
+          "Hashes": {
+            "md5": "1463fde4f0bb1b14c5fb2a358995178e",
+            "sha1": "afc0b44c5ecd06d6f72381aa19402669f61ca494",
+            "sha256": "769f6ff62b0addd445ec3f35d764fd627359f59c2ccf05c869545f269e3fc20b"
+          },
+          "ID": "153JPveGQqNa1KgKF9Qv1ZbKyR1TiCkC6",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T21:28:46.118Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 1135559698
+        },
+        {
+          "Hashes": {
+            "md5": "916b853ccb6c23b7064d1ff15a0e779e",
+            "sha1": "d0355827f646a94ec580c4a1ec9f683608e275bd",
+            "sha256": "6543068f593ae4bce061be80cc90f89e6a5b26d18d1bd7442b8990f2cb6c9690"
+          },
+          "ID": "1-TjLybnpMa8g4Ka3u3ZraepXwxSzLdon",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:28:45.546Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 756
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    },
+    "models/bge_reranker/seed2027/best_model": {
+      "bytes": 1157717150,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "d4a12089c1a7f001c3a74a1d7ea340f8",
+            "sha1": "494d2aaa8937608127557c39661343cd60fd5019",
+            "sha256": "ee0c255497f450b7a52ffbfb956bf09c1d076bfb3dea6e445bc920449d61a670"
+          },
+          "ID": "1p-2RWSVob1aGowWt32hb9mcFzNcXKMd4",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T22:42:15.531Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2136
+        },
+        {
+          "Hashes": {
+            "md5": "8ca145eb7fdfe3e859ad62fde93444aa",
+            "sha1": "210c7a96f318ca423ab4a8e4736fd86596c855ea",
+            "sha256": "1919ac24e2bc00b04ed2ec3902939854aa48b3193778f6c7e4a5043c093bbe0f"
+          },
+          "ID": "1jzLGuHjjfzXvct_EN2dtbtjCDaPuOpWC",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T22:42:05.585Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 17083152
+        },
+        {
+          "Hashes": {
+            "md5": "bf25eb5120ad92ef5c7d8596b5dc4046",
+            "sha1": "7e88c49faff6c6c136fdf4a3402d0cb534c6ab10",
+            "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+          },
+          "ID": "1RpSKDY56EUzIZVkdxVJZgMIYiwPkPf4F",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T22:42:05.531Z",
+          "Name": "sentencepiece.bpe.model",
+          "Path": "sentencepiece.bpe.model",
+          "Size": 5069051
+        },
+        {
+          "Hashes": {
+            "md5": "ea97a85921e25983f1828cf59b30854c",
+            "sha1": "609c3865b77979ad888533761596155bf7037b85",
+            "sha256": "041792ef1de8acadb24388fdfabdf1a6f8c5da621e7bcb11bb14a9bdf8ce70ff"
+          },
+          "ID": "1kKCDra8NHPEAf54VJaVqt8jNL70_6oP8",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T22:42:05.529Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1393
+        },
+        {
+          "Hashes": {
+            "md5": "33e57d2dda50a13c4c62ed8afb6c6773",
+            "sha1": "5209e918bacfb5ebb612158aabfadb5498b5edb8",
+            "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+          },
+          "ID": "1hanysC60GVk7tfJIbaW6Hz077jYR956m",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T22:42:05.529Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 964
+        },
+        {
+          "Hashes": {
+            "md5": "079ddaf00b44f002b6e66a15dfe3cc26",
+            "sha1": "481df8395dd3a01f869fa018d2615f97c36ca64d",
+            "sha256": "f145dbcb7cf8c54d74c7895fa6385bcb340f7f8b16cef77521e41cf501e4d9bc"
+          },
+          "ID": "1LTsG3GrII5uoemIbWeI1uGm90de0Hcnw",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T22:42:05.523Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 1135559698
+        },
+        {
+          "Hashes": {
+            "md5": "916b853ccb6c23b7064d1ff15a0e779e",
+            "sha1": "d0355827f646a94ec580c4a1ec9f683608e275bd",
+            "sha256": "6543068f593ae4bce061be80cc90f89e6a5b26d18d1bd7442b8990f2cb6c9690"
+          },
+          "ID": "1kiHLmDpJZlsUpcbyOwuTduTODd2RgUyF",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T22:42:04.940Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 756
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    },
+    "models/bge_reranker/seed2028/best_model": {
+      "bytes": 1157717150,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "5c605e41e4a714f53ba51586d367ed59",
+            "sha1": "10ad85ddb0c5401b36e921e2cb9a84630af71368",
+            "sha256": "aee33c1e8ca895333c99c4fec803f6455eb79da047546ab26603cd61b63fef4c"
+          },
+          "ID": "1ntVJUjrA4DEKObqupK9hwHQnPMpidY8A",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-23T00:12:14.975Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2136
+        },
+        {
+          "Hashes": {
+            "md5": "8ca145eb7fdfe3e859ad62fde93444aa",
+            "sha1": "210c7a96f318ca423ab4a8e4736fd86596c855ea",
+            "sha256": "1919ac24e2bc00b04ed2ec3902939854aa48b3193778f6c7e4a5043c093bbe0f"
+          },
+          "ID": "1Xd95bS831X9tOVnRK9ekTkdwRYPsoaUA",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-23T00:12:04.903Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 17083152
+        },
+        {
+          "Hashes": {
+            "md5": "bf25eb5120ad92ef5c7d8596b5dc4046",
+            "sha1": "7e88c49faff6c6c136fdf4a3402d0cb534c6ab10",
+            "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+          },
+          "ID": "1ReJEswAwd_WQZNo7Ur4PXzeSVXoo9vIs",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-23T00:12:04.854Z",
+          "Name": "sentencepiece.bpe.model",
+          "Path": "sentencepiece.bpe.model",
+          "Size": 5069051
+        },
+        {
+          "Hashes": {
+            "md5": "ea97a85921e25983f1828cf59b30854c",
+            "sha1": "609c3865b77979ad888533761596155bf7037b85",
+            "sha256": "041792ef1de8acadb24388fdfabdf1a6f8c5da621e7bcb11bb14a9bdf8ce70ff"
+          },
+          "ID": "1lSmBWoOOWH8h67m_CRs3vVFqJ71jRdaQ",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-23T00:12:04.851Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1393
+        },
+        {
+          "Hashes": {
+            "md5": "33e57d2dda50a13c4c62ed8afb6c6773",
+            "sha1": "5209e918bacfb5ebb612158aabfadb5498b5edb8",
+            "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+          },
+          "ID": "1vHA9U8uKEJ3xG-4IoJBpQH0Yu-DmXLvU",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-23T00:12:04.851Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 964
+        },
+        {
+          "Hashes": {
+            "md5": "dd4ad53a31bcdea4958109f6e2cf49ed",
+            "sha1": "08a225bdedb9a474fcb494c46584acb6e45fc20a",
+            "sha256": "80392099f91ee3a37b0339ddc319db58e25b01579f6e2e40197fe5bd1db7310f"
+          },
+          "ID": "1TSXBw4rWg1IRD-sfnfUk8egnKmlQYfE4",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-23T00:12:04.845Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 1135559698
+        },
+        {
+          "Hashes": {
+            "md5": "916b853ccb6c23b7064d1ff15a0e779e",
+            "sha1": "d0355827f646a94ec580c4a1ec9f683608e275bd",
+            "sha256": "6543068f593ae4bce061be80cc90f89e6a5b26d18d1bd7442b8990f2cb6c9690"
+          },
+          "ID": "1b9aXjhuLxG-cIV37Eo94MuMocy1qO00I",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-23T00:12:04.270Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 756
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    },
+    "models/count/seed2026/best_model": {
+      "bytes": 651651873,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "91e9377211b1cc11d79bbb40e16b2bfc",
+            "sha1": "d9fc832fa829daf10e0c94b41a29f44be3784b48",
+            "sha256": "190fad272596eb8e56f3068358a56d87cd7ab5a3da8bae981d2adcd879358d27"
+          },
+          "ID": "1UOvq2qY4CvCRrqfL1FdnpUBaYp0kT4QK",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T20:06:37.207Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2100
+        },
+        {
+          "Hashes": {
+            "md5": "742c7b928991aab2308119f92298e6d1",
+            "sha1": "54696f3a5bdc995087d8347d499159cae6436155",
+            "sha256": "76b4156a96ddf48c1914f589c623d2213377170048e120278dac32aeb4b3034a"
+          },
+          "ID": "1RiKsDYp7j_dTlmEegvhJOqKp4QH70Xcn",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T20:06:31.547Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 439387
+        },
+        {
+          "Hashes": {
+            "md5": "3b5b76c4aef48ecf8cb3abaafe960f09",
+            "sha1": "b104ff0ea9a274c69e854631b2a74e32db17d62c",
+            "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+          },
+          "ID": "1MmclOtu05HqWHmAemHBBp_C7sM-dxueG",
+          "IsDir": false,
+          "MimeType": "text/plain",
+          "ModTime": "2026-08-22T20:06:31.545Z",
+          "Name": "vocab.txt",
+          "Path": "vocab.txt",
+          "Size": 109540
+        },
+        {
+          "Hashes": {
+            "md5": "22f1c5d551d8609dc2beee17f28da0eb",
+            "sha1": "7b50c82c6fbe223a79712621784448bb666abd72",
+            "sha256": "fb7c7cc31b0b5129d63b6be1219e6ff67c00dd0383d327d4aa52c7a16d34cad6"
+          },
+          "ID": "1F2a8z8hiLh0LA_nPmbKSxpIRd4mVo6QA",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T20:06:31.541Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1439
+        },
+        {
+          "Hashes": {
+            "md5": "0d21dc8bbd9451f28b3609ed3dcb2375",
+            "sha1": "5ea735b0c67a6936e7a924cc5de6b81c8c739386",
+            "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a"
+          },
+          "ID": "11XJT1tgLGIooHElZ4Rru4rU7bnMaqiAM",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T20:06:31.541Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 695
+        },
+        {
+          "Hashes": {
+            "md5": "658c7e9bcbdf505de9ece75b96136582",
+            "sha1": "d07eaa5e595a9354b067b0df8665603388927a5a",
+            "sha256": "7a4a61cc25bb7a58416319cef9863f92787534b7c4386c7477c5b1282a0eff6c"
+          },
+          "ID": "1s5QPjA43d3P52e5CfwDv3K9-tfhkD2OV",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T20:06:31.539Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 651097734
+        },
+        {
+          "Hashes": {
+            "md5": "d645d4123862072986b0a1f6c7a4af5d",
+            "sha1": "0aafb08c9d813584831b0c9169d12179ae018eda",
+            "sha256": "13192eb5fa75b3f2c5bb8025130a8da468fb6dee1425590de8fea63a82115b40"
+          },
+          "ID": "1drveHg6hQ-aztD_hAWn1OQURc9APIO1X",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T20:06:31.208Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 978
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    },
+    "models/count/seed2027/best_model": {
+      "bytes": 651651873,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "f5e0d7e1d70c75ca850bf030bf8b8ffd",
+            "sha1": "0f7345b3fabd9fc73da4f2347a07568cd82d7f08",
+            "sha256": "9899e6e91e4561290c5e30464f5a94ac0c3972c34d85c183f9820102d1053bc4"
+          },
+          "ID": "1dGFxC8ozAKniRJewgoNjfwzLHfAw8equ",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:55:07.971Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2100
+        },
+        {
+          "Hashes": {
+            "md5": "742c7b928991aab2308119f92298e6d1",
+            "sha1": "54696f3a5bdc995087d8347d499159cae6436155",
+            "sha256": "76b4156a96ddf48c1914f589c623d2213377170048e120278dac32aeb4b3034a"
+          },
+          "ID": "1HILITlzeAkBg-LB3XEgXO7Cei3D32wYA",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:55:02.276Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 439387
+        },
+        {
+          "Hashes": {
+            "md5": "3b5b76c4aef48ecf8cb3abaafe960f09",
+            "sha1": "b104ff0ea9a274c69e854631b2a74e32db17d62c",
+            "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+          },
+          "ID": "1shn1oufxAYDPvpdSpjMJEgxjuu8Sr_jT",
+          "IsDir": false,
+          "MimeType": "text/plain",
+          "ModTime": "2026-08-22T21:55:02.274Z",
+          "Name": "vocab.txt",
+          "Path": "vocab.txt",
+          "Size": 109540
+        },
+        {
+          "Hashes": {
+            "md5": "22f1c5d551d8609dc2beee17f28da0eb",
+            "sha1": "7b50c82c6fbe223a79712621784448bb666abd72",
+            "sha256": "fb7c7cc31b0b5129d63b6be1219e6ff67c00dd0383d327d4aa52c7a16d34cad6"
+          },
+          "ID": "1HUSqA_Gn3dog5HMAPJ7YC9yLj9O49e1a",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:55:02.270Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1439
+        },
+        {
+          "Hashes": {
+            "md5": "0d21dc8bbd9451f28b3609ed3dcb2375",
+            "sha1": "5ea735b0c67a6936e7a924cc5de6b81c8c739386",
+            "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a"
+          },
+          "ID": "1YSLMMEKnbgT5HGAXCRhvDML2L3NEkiql",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:55:02.270Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 695
+        },
+        {
+          "Hashes": {
+            "md5": "94ff2916557cb70891f348ea36ec4f48",
+            "sha1": "8ad830b0e9d65f6e78c68ad4774d34fcef1d108c",
+            "sha256": "1e0de1b5af84398e2fe922937453b81b428899ea395ef31ab5e347e838ec0ebe"
+          },
+          "ID": "1FlNJGrNe94hZ4ZXMgsB-FUb_IZzZMiNx",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T21:55:02.268Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 651097734
+        },
+        {
+          "Hashes": {
+            "md5": "d645d4123862072986b0a1f6c7a4af5d",
+            "sha1": "0aafb08c9d813584831b0c9169d12179ae018eda",
+            "sha256": "13192eb5fa75b3f2c5bb8025130a8da468fb6dee1425590de8fea63a82115b40"
+          },
+          "ID": "14xMC6j7GolKV47AFloXGyTvOdlEvU8uO",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:55:01.937Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 978
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    },
+    "models/count/seed2028/best_model": {
+      "bytes": 651651873,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "a183bc7f17a96b77b67000519ce224c7",
+            "sha1": "f0de1667e208e4c6bcfb78715e3940375150a02b",
+            "sha256": "bcadadcae594c87d32401024591ee857893ca3de00fc248c90d96f3e74a60edb"
+          },
+          "ID": "11ReSs5Mevsx9xldESADpjRx9YXqfwJ5d",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:17:10.372Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2100
+        },
+        {
+          "Hashes": {
+            "md5": "742c7b928991aab2308119f92298e6d1",
+            "sha1": "54696f3a5bdc995087d8347d499159cae6436155",
+            "sha256": "76b4156a96ddf48c1914f589c623d2213377170048e120278dac32aeb4b3034a"
+          },
+          "ID": "1jsDngKuHAbVsVYivu23s1s3VddWG6KUh",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:17:04.687Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 439387
+        },
+        {
+          "Hashes": {
+            "md5": "3b5b76c4aef48ecf8cb3abaafe960f09",
+            "sha1": "b104ff0ea9a274c69e854631b2a74e32db17d62c",
+            "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+          },
+          "ID": "1DlQmXKXVckfFJFL_lSG3-woCJJY935To",
+          "IsDir": false,
+          "MimeType": "text/plain",
+          "ModTime": "2026-08-22T23:17:04.685Z",
+          "Name": "vocab.txt",
+          "Path": "vocab.txt",
+          "Size": 109540
+        },
+        {
+          "Hashes": {
+            "md5": "0d21dc8bbd9451f28b3609ed3dcb2375",
+            "sha1": "5ea735b0c67a6936e7a924cc5de6b81c8c739386",
+            "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a"
+          },
+          "ID": "1GzDXfPs-jE2QLjg9uZZPM0ZYZ7l9yD4V",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:17:04.681Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 695
+        },
+        {
+          "Hashes": {
+            "md5": "22f1c5d551d8609dc2beee17f28da0eb",
+            "sha1": "7b50c82c6fbe223a79712621784448bb666abd72",
+            "sha256": "fb7c7cc31b0b5129d63b6be1219e6ff67c00dd0383d327d4aa52c7a16d34cad6"
+          },
+          "ID": "1iy2_-HUOkqDyrIFWZFOlOoAYF9yXSTKS",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:17:04.680Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1439
+        },
+        {
+          "Hashes": {
+            "md5": "474b14e62ed4625902b609d954dab1ae",
+            "sha1": "17afe9a95b90aa569300ca6cd58fd7960bfbf581",
+            "sha256": "657c2ad7db21ec35bba5effcaab704f7a17ed78bbd9f10c5bc3b709026b5c76b"
+          },
+          "ID": "1iriDLRfLV4Q7NCVdh9fTXUbxyTtsFv-Z",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T23:17:04.679Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 651097734
+        },
+        {
+          "Hashes": {
+            "md5": "d645d4123862072986b0a1f6c7a4af5d",
+            "sha1": "0aafb08c9d813584831b0c9169d12179ae018eda",
+            "sha256": "13192eb5fa75b3f2c5bb8025130a8da468fb6dee1425590de8fea63a82115b40"
+          },
+          "ID": "14nRcjwsjDnicFKhXsADY5XXi5cazMG5g",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:17:04.347Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 978
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    },
+    "models/kg_atomic_macbert/seed2026/best_model": {
+      "bytes": 651647686,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "7068c102e5c0f38ed4ee50cd9bded748",
+            "sha1": "e241a2af604a467d89c395a032989337860b9247",
+            "sha256": "9d06f82e94672241c1fe268a66eb1075dd0595d76209e2074ca7584e509bd83e"
+          },
+          "ID": "158AVtZNcDb_SdJUyfuMvTRxILIU4BQaH",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:43:56.309Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2100
+        },
+        {
+          "Hashes": {
+            "md5": "5e9460358946c5669c062a92f271c6b4",
+            "sha1": "771c3c818f534d5e5cf3ae60659680f1ccfeb26f",
+            "sha256": "1d54d5070e26c19556120e251515e8ef10cb131896e42d6a8c19f83b2db1a2a8"
+          },
+          "ID": "1npFilYDd4lOHwTt031M_ttxIbrUWF4D8",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:43:50.642Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 439376
+        },
+        {
+          "Hashes": {
+            "md5": "3b5b76c4aef48ecf8cb3abaafe960f09",
+            "sha1": "b104ff0ea9a274c69e854631b2a74e32db17d62c",
+            "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+          },
+          "ID": "1YSaVVa_ewzb3eMzJmyMd1CpwX7N469om",
+          "IsDir": false,
+          "MimeType": "text/plain",
+          "ModTime": "2026-08-22T21:43:50.640Z",
+          "Name": "vocab.txt",
+          "Path": "vocab.txt",
+          "Size": 109540
+        },
+        {
+          "Hashes": {
+            "md5": "0d21dc8bbd9451f28b3609ed3dcb2375",
+            "sha1": "5ea735b0c67a6936e7a924cc5de6b81c8c739386",
+            "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a"
+          },
+          "ID": "1fIPqZrlie58rZ0cxDZpnsltr1lRY4VnZ",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:43:50.636Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 695
+        },
+        {
+          "Hashes": {
+            "md5": "977f8411dbc8e53171592c0af3e85cc9",
+            "sha1": "e19ee700adc93584c9743143da4112db3e9c41e2",
+            "sha256": "8afbc47b812056ed7cde7c0830e71b2b3f6cd6d08d64ea904efcbb23629d25fc"
+          },
+          "ID": "1bVOYXeN0oy3IEkzvkLu77QXNEfPdTyaq",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:43:50.636Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1439
+        },
+        {
+          "Hashes": {
+            "md5": "00d5836f4071ff88efc1b06edcb1cdf9",
+            "sha1": "c1870e255f8c52db8f618031e1bf0a737b7d6a41",
+            "sha256": "dc1ac1e297be468f3f8b9f3227e209ce8bfc4b47bfcef15de6246964a257a755"
+          },
+          "ID": "1FhKOa2JWpZTMRw0ZP9WgN1C9erdCJR-X",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T21:43:50.635Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 651093634
+        },
+        {
+          "Hashes": {
+            "md5": "ce75c2e04aa3b29b1101e943801bc74e",
+            "sha1": "49b8331e562b69f0dcf4b3e62a8c44cd13291e2d",
+            "sha256": "9c71d0aecfc90085e16471dc68e1a5679510c007af92ee00548a419bc2f01954"
+          },
+          "ID": "1IvT61pwbct6huV-GiXEQ6NqJ3VW3YKon",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T21:43:50.301Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 902
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    },
+    "models/kg_atomic_macbert/seed2027/best_model": {
+      "bytes": 651647686,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "fc30931a873fed5c25c8a4367c473115",
+            "sha1": "e11a9cdf5e20bf1f6ef8fd831e4154cb494a99aa",
+            "sha256": "35377b0f42f1520c62a0770d42bb470e0ed46e39ba0c48f1694dc715174eb8ae"
+          },
+          "ID": "1Nhj1ki2mBxNhxsAdtFkvP7OVOhr7FSGu",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:12:04.617Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2100
+        },
+        {
+          "Hashes": {
+            "md5": "5e9460358946c5669c062a92f271c6b4",
+            "sha1": "771c3c818f534d5e5cf3ae60659680f1ccfeb26f",
+            "sha256": "1d54d5070e26c19556120e251515e8ef10cb131896e42d6a8c19f83b2db1a2a8"
+          },
+          "ID": "1iWfZDEwiGh34J8YMr67L6j78SGjZYO_E",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:11:58.944Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 439376
+        },
+        {
+          "Hashes": {
+            "md5": "3b5b76c4aef48ecf8cb3abaafe960f09",
+            "sha1": "b104ff0ea9a274c69e854631b2a74e32db17d62c",
+            "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+          },
+          "ID": "1bHnlppZhQFDO_QeTYBguKwRAGIZ1vdgg",
+          "IsDir": false,
+          "MimeType": "text/plain",
+          "ModTime": "2026-08-22T23:11:58.942Z",
+          "Name": "vocab.txt",
+          "Path": "vocab.txt",
+          "Size": 109540
+        },
+        {
+          "Hashes": {
+            "md5": "977f8411dbc8e53171592c0af3e85cc9",
+            "sha1": "e19ee700adc93584c9743143da4112db3e9c41e2",
+            "sha256": "8afbc47b812056ed7cde7c0830e71b2b3f6cd6d08d64ea904efcbb23629d25fc"
+          },
+          "ID": "1iRLZWNnUfUwXhXLOza_uVoJejNirCpAn",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:11:58.938Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1439
+        },
+        {
+          "Hashes": {
+            "md5": "0d21dc8bbd9451f28b3609ed3dcb2375",
+            "sha1": "5ea735b0c67a6936e7a924cc5de6b81c8c739386",
+            "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a"
+          },
+          "ID": "1LeL9Lz3mQYrQyt7f8Ipnexsd5tftVG62",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:11:58.938Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 695
+        },
+        {
+          "Hashes": {
+            "md5": "a975d84b01952104589b10f28551baa9",
+            "sha1": "802572011eb5504b8b4ff068a660240b7507fa02",
+            "sha256": "60950fe107ff5d73a2e9b59c83f2695b6cc4dfeb52806f4a7a85289d6de0705e"
+          },
+          "ID": "11f7JrZdcTnZB8iQ180QDPVzI8MgO8tZj",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T23:11:58.936Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 651093634
+        },
+        {
+          "Hashes": {
+            "md5": "ce75c2e04aa3b29b1101e943801bc74e",
+            "sha1": "49b8331e562b69f0dcf4b3e62a8c44cd13291e2d",
+            "sha256": "9c71d0aecfc90085e16471dc68e1a5679510c007af92ee00548a419bc2f01954"
+          },
+          "ID": "1oPU9RGDkdEIahBZWulh1qdxWm2OP2Z3W",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:11:58.604Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 902
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    },
+    "models/kg_atomic_macbert/seed2028/best_model": {
+      "bytes": 651647686,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "a9901044e6e0a288368eb6542371ff7c",
+            "sha1": "0ee9fc1202d14f91955f88311e5fd018bd75eca2",
+            "sha256": "8ee6ae949aa7fd2fb7fa8254910006d00048769dc241e52c1a3a88ea583904c9"
+          },
+          "ID": "1sY3YoFyDrrTsIcsLKAo8-9c19S-_Z_cC",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-23T00:41:15.326Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2100
+        },
+        {
+          "Hashes": {
+            "md5": "5e9460358946c5669c062a92f271c6b4",
+            "sha1": "771c3c818f534d5e5cf3ae60659680f1ccfeb26f",
+            "sha256": "1d54d5070e26c19556120e251515e8ef10cb131896e42d6a8c19f83b2db1a2a8"
+          },
+          "ID": "1aiPKU4W97dofI1CUxY0GZEY8pCDM78gg",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-23T00:41:09.660Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 439376
+        },
+        {
+          "Hashes": {
+            "md5": "3b5b76c4aef48ecf8cb3abaafe960f09",
+            "sha1": "b104ff0ea9a274c69e854631b2a74e32db17d62c",
+            "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+          },
+          "ID": "1fUB40rQ7E92EzLop9NuX_fyK9vFyL9yA",
+          "IsDir": false,
+          "MimeType": "text/plain",
+          "ModTime": "2026-08-23T00:41:09.657Z",
+          "Name": "vocab.txt",
+          "Path": "vocab.txt",
+          "Size": 109540
+        },
+        {
+          "Hashes": {
+            "md5": "0d21dc8bbd9451f28b3609ed3dcb2375",
+            "sha1": "5ea735b0c67a6936e7a924cc5de6b81c8c739386",
+            "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a"
+          },
+          "ID": "1uiFtZ1zwC4owVo2sGOQuNqm8nHIUWjo-",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-23T00:41:09.653Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 695
+        },
+        {
+          "Hashes": {
+            "md5": "977f8411dbc8e53171592c0af3e85cc9",
+            "sha1": "e19ee700adc93584c9743143da4112db3e9c41e2",
+            "sha256": "8afbc47b812056ed7cde7c0830e71b2b3f6cd6d08d64ea904efcbb23629d25fc"
+          },
+          "ID": "1yJ9AmL_7qAu_fdpK3lSYuU_gTkLKBc9h",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-23T00:41:09.653Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1439
+        },
+        {
+          "Hashes": {
+            "md5": "431cc4f818733a5f87ca877cc4a3a7a5",
+            "sha1": "02544a396d7017b6142d84a068149b173538aeb8",
+            "sha256": "790ea3832ecdd124ba06976bc052478c5a01267dda0192f17f0977c2516e1e2a"
+          },
+          "ID": "1TmK5zo3DwRzqBhEF_FnBm6ZoY31SPJoJ",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-23T00:41:09.652Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 651093634
+        },
+        {
+          "Hashes": {
+            "md5": "ce75c2e04aa3b29b1101e943801bc74e",
+            "sha1": "49b8331e562b69f0dcf4b3e62a8c44cd13291e2d",
+            "sha256": "9c71d0aecfc90085e16471dc68e1a5679510c007af92ee00548a419bc2f01954"
+          },
+          "ID": "15KHXEdAoHxhkVQtNXb8Ef91yhEaW7_nF",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-23T00:41:09.318Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 902
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    },
+    "models/o2_macbert/seed2026/best_model": {
+      "bytes": 651647686,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "11abda250b5907c416da2891d0942604",
+            "sha1": "eea76a20ef9027cb216aa073771d2dca05b60e34",
+            "sha256": "f8644e99d87fc066f3e258eb953aac889f043d0895ecb4e3157911332a8b259b"
+          },
+          "ID": "1Bhot7rIKSFj_3viR9H0MEhzwIERamXTs",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T20:30:39.216Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2100
+        },
+        {
+          "Hashes": {
+            "md5": "5e9460358946c5669c062a92f271c6b4",
+            "sha1": "771c3c818f534d5e5cf3ae60659680f1ccfeb26f",
+            "sha256": "1d54d5070e26c19556120e251515e8ef10cb131896e42d6a8c19f83b2db1a2a8"
+          },
+          "ID": "1kAO0W-hLrc5IP8aG2COAp9aWexfQcJ-U",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T20:30:33.545Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 439376
+        },
+        {
+          "Hashes": {
+            "md5": "3b5b76c4aef48ecf8cb3abaafe960f09",
+            "sha1": "b104ff0ea9a274c69e854631b2a74e32db17d62c",
+            "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+          },
+          "ID": "1eBWo0keuNHWkmUjHprbj1Y-7c_T-kPRZ",
+          "IsDir": false,
+          "MimeType": "text/plain",
+          "ModTime": "2026-08-22T20:30:33.542Z",
+          "Name": "vocab.txt",
+          "Path": "vocab.txt",
+          "Size": 109540
+        },
+        {
+          "Hashes": {
+            "md5": "977f8411dbc8e53171592c0af3e85cc9",
+            "sha1": "e19ee700adc93584c9743143da4112db3e9c41e2",
+            "sha256": "8afbc47b812056ed7cde7c0830e71b2b3f6cd6d08d64ea904efcbb23629d25fc"
+          },
+          "ID": "155qYHwF8qLo_XxHE4vk8yz3KA2qc6Kqk",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T20:30:33.538Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1439
+        },
+        {
+          "Hashes": {
+            "md5": "0d21dc8bbd9451f28b3609ed3dcb2375",
+            "sha1": "5ea735b0c67a6936e7a924cc5de6b81c8c739386",
+            "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a"
+          },
+          "ID": "1N1XdWKaKvYJ0Yyty-26GaGXAtq0AV_Uk",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T20:30:33.538Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 695
+        },
+        {
+          "Hashes": {
+            "md5": "7211710a557518715813c773d7a47710",
+            "sha1": "2877804337e6a15b6473916280bfc158954afa21",
+            "sha256": "d77171853256b3e8763cbb6bde6c606dfab7a3c148d107b842eda5a67fa96863"
+          },
+          "ID": "1rBXN8Y4J2dqWY4g1dBmKJmTwkKIqxquB",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T20:30:33.537Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 651093634
+        },
+        {
+          "Hashes": {
+            "md5": "ce75c2e04aa3b29b1101e943801bc74e",
+            "sha1": "49b8331e562b69f0dcf4b3e62a8c44cd13291e2d",
+            "sha256": "9c71d0aecfc90085e16471dc68e1a5679510c007af92ee00548a419bc2f01954"
+          },
+          "ID": "1LHsExQM7bCIuEqeSOlNnqlLDI9vnqcwy",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T20:30:33.206Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 902
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    },
+    "models/o2_macbert/seed2027/best_model": {
+      "bytes": 651647686,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "854759690ccd7b256a77758b881770cc",
+            "sha1": "967896d75ace6e193a55b718282bbfdf9b7c47f2",
+            "sha256": "3850cb9a3053c00df26d2c33121cdc7ba24eacc517e1376a9476885ab69c50fe"
+          },
+          "ID": "1B8bfaD_fifJa399lgrZkjthCboiaYrDS",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T22:17:59.265Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2100
+        },
+        {
+          "Hashes": {
+            "md5": "5e9460358946c5669c062a92f271c6b4",
+            "sha1": "771c3c818f534d5e5cf3ae60659680f1ccfeb26f",
+            "sha256": "1d54d5070e26c19556120e251515e8ef10cb131896e42d6a8c19f83b2db1a2a8"
+          },
+          "ID": "1b-dV6ICp6WqnC0ZAzq40FeFg5Buhr-Sj",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T22:17:53.595Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 439376
+        },
+        {
+          "Hashes": {
+            "md5": "3b5b76c4aef48ecf8cb3abaafe960f09",
+            "sha1": "b104ff0ea9a274c69e854631b2a74e32db17d62c",
+            "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+          },
+          "ID": "1GzcTo68olCB7G-zHLfNSfzdHOZ8ewi75",
+          "IsDir": false,
+          "MimeType": "text/plain",
+          "ModTime": "2026-08-22T22:17:53.593Z",
+          "Name": "vocab.txt",
+          "Path": "vocab.txt",
+          "Size": 109540
+        },
+        {
+          "Hashes": {
+            "md5": "0d21dc8bbd9451f28b3609ed3dcb2375",
+            "sha1": "5ea735b0c67a6936e7a924cc5de6b81c8c739386",
+            "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a"
+          },
+          "ID": "1SwCnJDGrHGPLVFsY7tKBl_H4rPsMRL97",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T22:17:53.589Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 695
+        },
+        {
+          "Hashes": {
+            "md5": "977f8411dbc8e53171592c0af3e85cc9",
+            "sha1": "e19ee700adc93584c9743143da4112db3e9c41e2",
+            "sha256": "8afbc47b812056ed7cde7c0830e71b2b3f6cd6d08d64ea904efcbb23629d25fc"
+          },
+          "ID": "1gqbSZzCMX0rEggJVxoEw2SIK7GDzbyKh",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T22:17:53.588Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1439
+        },
+        {
+          "Hashes": {
+            "md5": "80e34b73bd2713504975806d146f216e",
+            "sha1": "39135369877dadaee2e9923845f5a77dea2ee438",
+            "sha256": "98ee1026cbff0a4dafe2999216ffd047dc801533e52e6f4b616acb9a6c46c105"
+          },
+          "ID": "1yGKMbHFdp6WzZz2Q6FWoCHIDjDPTuxrN",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T22:17:53.587Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 651093634
+        },
+        {
+          "Hashes": {
+            "md5": "ce75c2e04aa3b29b1101e943801bc74e",
+            "sha1": "49b8331e562b69f0dcf4b3e62a8c44cd13291e2d",
+            "sha256": "9c71d0aecfc90085e16471dc68e1a5679510c007af92ee00548a419bc2f01954"
+          },
+          "ID": "1JjdKWhkpafdTGZPHxoI6NcHS1rB0gjPq",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T22:17:53.255Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 902
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    },
+    "models/o2_macbert/seed2028/best_model": {
+      "bytes": 651647686,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "332d1ece378d1f04d0f670cf7d3c3657",
+            "sha1": "7fa5e9919a25fb74ab979ee7b8275f09a4ebce57",
+            "sha256": "1d73ef5ffdbc1d4bd00eb05fdc1784b09c7a35a2926ce9ea578ba224155e5c66"
+          },
+          "ID": "1neVl3X6c3fQO7bXagwPGuGrAZT8IL54B",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:32:10.066Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2100
+        },
+        {
+          "Hashes": {
+            "md5": "5e9460358946c5669c062a92f271c6b4",
+            "sha1": "771c3c818f534d5e5cf3ae60659680f1ccfeb26f",
+            "sha256": "1d54d5070e26c19556120e251515e8ef10cb131896e42d6a8c19f83b2db1a2a8"
+          },
+          "ID": "1qHQo9sFyANcVtGIfnlOnBnNWYwJiUZrG",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:32:04.362Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 439376
+        },
+        {
+          "Hashes": {
+            "md5": "3b5b76c4aef48ecf8cb3abaafe960f09",
+            "sha1": "b104ff0ea9a274c69e854631b2a74e32db17d62c",
+            "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+          },
+          "ID": "1a0XbEZzQDv3xVcmpgWe5Sj9GoRgUgrnH",
+          "IsDir": false,
+          "MimeType": "text/plain",
+          "ModTime": "2026-08-22T23:32:04.360Z",
+          "Name": "vocab.txt",
+          "Path": "vocab.txt",
+          "Size": 109540
+        },
+        {
+          "Hashes": {
+            "md5": "0d21dc8bbd9451f28b3609ed3dcb2375",
+            "sha1": "5ea735b0c67a6936e7a924cc5de6b81c8c739386",
+            "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a"
+          },
+          "ID": "13s3s__-BKVwve-oT22M3q4LkAWT_sjsW",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:32:04.356Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 695
+        },
+        {
+          "Hashes": {
+            "md5": "977f8411dbc8e53171592c0af3e85cc9",
+            "sha1": "e19ee700adc93584c9743143da4112db3e9c41e2",
+            "sha256": "8afbc47b812056ed7cde7c0830e71b2b3f6cd6d08d64ea904efcbb23629d25fc"
+          },
+          "ID": "1QMWcR07JuHu1l95SVKZyX1Nm-_2xN7Ex",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:32:04.356Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1439
+        },
+        {
+          "Hashes": {
+            "md5": "7df3fc504e02c3cec32aec4589238913",
+            "sha1": "4c1245c5b4e9dbf61a0094fccf952c1c953f89b1",
+            "sha256": "f11d491cbdef28c0f38cc5c8f93bb407238eefb8440dfb6de49fab423ae14996"
+          },
+          "ID": "1HFoTJYrsgYCocsj2zqbFlC1Zwx1ZwLC5",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T23:32:04.354Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 651093634
+        },
+        {
+          "Hashes": {
+            "md5": "ce75c2e04aa3b29b1101e943801bc74e",
+            "sha1": "49b8331e562b69f0dcf4b3e62a8c44cd13291e2d",
+            "sha256": "9c71d0aecfc90085e16471dc68e1a5679510c007af92ee00548a419bc2f01954"
+          },
+          "ID": "1gVA8p55habHzPURcCWl2ydxJVHMZ9BJf",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T23:32:04.022Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 902
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    },
+    "models/retriever/best_model": {
+      "bytes": 205111577,
+      "files": [
+        {
+          "Hashes": {
+            "md5": "4feb588c2416d3e7c4af3bb554f4fea0",
+            "sha1": "ff4ee7e854c76a48d44b8a7e31e618c300c90b47",
+            "sha256": "874f41eb7da81b4cb99259993ec01e8b79f2a1f5d4c18900c0a6c3755e532249"
+          },
+          "ID": "1zX_UeD9t43DwIH04ez5FU6Iz5NI_Yx6e",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T19:47:25.178Z",
+          "Name": "FP16_EXPORT_MANIFEST.json",
+          "Path": "FP16_EXPORT_MANIFEST.json",
+          "Size": 2081
+        },
+        {
+          "Hashes": {
+            "md5": "c66235ef525876326649b44fe3b5a13a",
+            "sha1": "af0ff50586b646a60f755f2bfd2fb871e4cecf70",
+            "sha256": "20dd4587f614aa550847598047a507f3fe9f7746d1c09cd7035367cbb1143045"
+          },
+          "ID": "1FkZOMjT6KT7VfvebaSjJnZZEc_cXYMC_",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T19:47:23.375Z",
+          "Name": "tokenizer.json",
+          "Path": "tokenizer.json",
+          "Size": 439376
+        },
+        {
+          "Hashes": {
+            "md5": "3b5b76c4aef48ecf8cb3abaafe960f09",
+            "sha1": "b104ff0ea9a274c69e854631b2a74e32db17d62c",
+            "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+          },
+          "ID": "1FiwQthkMWjc453wfEQBto2GwDn04x0Kp",
+          "IsDir": false,
+          "MimeType": "text/plain",
+          "ModTime": "2026-08-22T19:47:23.372Z",
+          "Name": "vocab.txt",
+          "Path": "vocab.txt",
+          "Size": 109540
+        },
+        {
+          "Hashes": {
+            "md5": "2e8b6a78a46a1e993ce7b40332fc6233",
+            "sha1": "0210f03423a1eae5613b8975581c9369c96f15b5",
+            "sha256": "2b7e82541c7e3f01309ef979c0eb95c6943d04f0b3e1ffff3f2187623a027c6b"
+          },
+          "ID": "1j2ffZbthMGdS3Ltvcz-tngfvzeaIgU28",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T19:47:23.368Z",
+          "Name": "tokenizer_config.json",
+          "Path": "tokenizer_config.json",
+          "Size": 1462
+        },
+        {
+          "Hashes": {
+            "md5": "0d21dc8bbd9451f28b3609ed3dcb2375",
+            "sha1": "5ea735b0c67a6936e7a924cc5de6b81c8c739386",
+            "sha256": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a"
+          },
+          "ID": "1qdZ4XHUQr9Euqws8p_42wQKX9p_yfa5y",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T19:47:23.368Z",
+          "Name": "special_tokens_map.json",
+          "Path": "special_tokens_map.json",
+          "Size": 695
+        },
+        {
+          "Hashes": {
+            "md5": "be75bfaf0b673344f4419eea2e743b33",
+            "sha1": "bdfbc595d74d0e558d33ce71c851ff0df7972164",
+            "sha256": "1e622d3ffdb58564b2fa9341d7cf500d789401858d3ae359793c94d3d58a0f21"
+          },
+          "ID": "1RjmtcM_JMlr-f4TAagYMG1NBEcO-OrTD",
+          "IsDir": false,
+          "MimeType": "application/octet-stream",
+          "ModTime": "2026-08-22T19:47:23.366Z",
+          "Name": "model.safetensors",
+          "Path": "model.safetensors",
+          "Size": 204557512
+        },
+        {
+          "Hashes": {
+            "md5": "8588ce181dad5d410f086bcbfbeee632",
+            "sha1": "02c5f5ee1e5e8273f867f412376ef2023da5ef14",
+            "sha256": "6a1c87d086a603a7f73b5daf59e55003dabf4bfbc6703991cadccd42474c1dcc"
+          },
+          "ID": "1oBmT_9-AVWNJVe2gYjOcTymT75LT4VrU",
+          "IsDir": false,
+          "MimeType": "application/json",
+          "ModTime": "2026-08-22T19:47:23.256Z",
+          "Name": "config.json",
+          "Path": "config.json",
+          "Size": 911
+        }
+      ],
+      "precision": "float16",
+      "status": "VERIFIED"
+    }
+  },
+  "protocol": "Strict-ICD",
+  "spec_id": "MEDNORM-P1-003",
+  "stage": "O7_OFFICIAL_PERSISTENT_MODELS",
+  "total_model_bytes": 9543104762,
+  "training_resume_supported": false
+}

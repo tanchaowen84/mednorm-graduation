@@ -1,0 +1,18 @@
+{
+  "audit_used": true,
+  "batch_size": 16,
+  "data_relative": "data/processed/phase1_v3/strict/official_fulltrain/atomic_input",
+  "data_split": "official_dev",
+  "do_sample": false,
+  "labels_used": false,
+  "max_input_length": 768,
+  "max_new_tokens": 128,
+  "maximum_mentions": 16,
+  "model_name": "Qwen/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "official_dev_touched": true,
+  "output_name": "official_dev_atomic_qwen_full",
+  "seed": 2026,
+  "smoke_limit": 0,
+  "work_root_name": "official_atomic_v3"
+}

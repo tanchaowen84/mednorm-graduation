@@ -1,0 +1,183 @@
+{
+  "audit_used": true,
+  "config_id": "O4-FUSION-HGB15-W8-v1",
+  "evaluation_split": "official_dev",
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 45,
+      "train_loss": 1.984329644838969
+    }
+  ],
+  "input_catalog_sha256": "97da4cd30fc9b66e48453293c6b5527151c29ee2789d479780f70ab7b25b8e8a",
+  "input_manifest": {
+    "audit_used": true,
+    "candidate_vocabulary_source": "ICD only",
+    "config_id": "O4-FUSION-HGB15-W8-v1",
+    "counts": {
+      "icd_candidate_count": 37645,
+      "official_dev_samples": 2000,
+      "official_train_oov_only_skipped": 258,
+      "official_train_samples": 6000,
+      "official_train_training_records": 5742
+    },
+    "easy_negative_count": 2,
+    "evaluation_split": "official_dev",
+    "hard_negative_count": 8,
+    "input_sha256": {
+      "catalog": "97da4cd30fc9b66e48453293c6b5527151c29ee2789d479780f70ab7b25b8e8a",
+      "official_dev": "450115dafed5df45d7559edab55546f6f6d43dc9f439716210ad388d2e4b8865",
+      "official_train": "8a600859d75287a608c3508e73c7041388b65be20a3a29430d57110cabb82cfe"
+    },
+    "kg_enabled": false,
+    "labels_in_official_dev_sparse": true,
+    "leakage_policy": "All 6000 official-train rows may supervise the fixed final model. Official-dev text is retrieval/evaluation-only; its labels are retained solely for final metrics and never enter training, epoch selection, thresholds or fusion weights.",
+    "main_candidate_k": 400,
+    "official_dev_touched": true,
+    "output_sha256": {
+      "official_dev_sparse.jsonl.gz": "a461fbc20fb64e872fd86d5955f2e2307f25290dec73d5db745ba38ee84b98f7",
+      "official_train_queries.jsonl.gz": "87effc292c0ce98366efc77645fd559df96e15eec57e4ec5125c34c1a3254d56",
+      "official_train_sparse.jsonl.gz": "e4b07b0e5edb3e37da03a7a95b22a7a0bddab5d1a26097c7269192e3400fc843"
+    },
+    "protocol": "Strict-ICD",
+    "retrieval": {
+      "official_dev_sparse": {
+        "label_recall_at_k": {
+          "1": 0.2198923207707566,
+          "10": 0.5199773306885803,
+          "100": 0.7639557948427317,
+          "200": 0.8135449135732502,
+          "400": 0.8591669028053273,
+          "5": 0.43213374893737605,
+          "50": 0.6967979597619722,
+          "800": 0.8860867101161802
+        },
+        "sample_all_recall_at_k": {
+          "1": 0.1285,
+          "10": 0.4005,
+          "100": 0.6685,
+          "200": 0.73,
+          "400": 0.785,
+          "5": 0.31,
+          "50": 0.5865,
+          "800": 0.821
+        }
+      }
+    },
+    "retrieval_k": 800,
+    "rrf_constant": 60,
+    "seed": 2026,
+    "selection_complete": true,
+    "selection_split": null,
+    "spec_id": "MEDNORM-P1-003",
+    "stage": "O7_OFFICIAL_DEV_RETRIEVAL_INPUT",
+    "train_split": "official_train",
+    "training_policy": "frozen epoch counts selected before official dev"
+  },
+  "input_manifest_sha256": "19d8a7bd53163b594ffcf4d8a7c86e7937255baeb19958a0743c3f1ce0937ae2",
+  "leakage_policy": "The epoch and all hyperparameters were frozen on the prior fit/tune/audit workflow. Official-dev labels are used only to report retrieval metrics after the all-train checkpoint is fixed.",
+  "model": {
+    "checkpoint_precision": "float32",
+    "frozen_epoch": 1,
+    "name": "BAAI/bge-base-zh-v1.5",
+    "pooling": "cls",
+    "requested_revision": "f03589ceff5aac7111bd60cfc7d497ca17ecac65",
+    "resolved_revision": "f03589ceff5aac7111bd60cfc7d497ca17ecac65",
+    "temperature": 0.01
+  },
+  "model_sha256": {
+    "config.json": "51b7d85f5ed3035a71c2ea766292fde1875a4f7f6fdbe3ae43e1ccc77aa00985",
+    "model.safetensors": "f25de0897ef8f80d5444099969d5ac3f5ed648b5c52281550c5cc6c8d0bc22cc",
+    "special_tokens_map.json": "5d5b662e421ea9fac075174bb0688ee0d9431699900b90662acd44b2a350503a",
+    "tokenizer.json": "20dd4587f614aa550847598047a507f3fe9f7746d1c09cd7035367cbb1143045",
+    "tokenizer_config.json": "7b082b48a08a0b5c5939d99472e33addce3d96202155e33f7928cecd171186a0",
+    "vocab.txt": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+  },
+  "official_dev": {
+    "retrieval": {
+      "dense": {
+        "label_recall_at_k": {
+          "100": 0.8880702748654009,
+          "200": 0.9127231510342874,
+          "400": 0.9237744403513743,
+          "50": 0.840748087276849,
+          "800": 0.9325587985264947
+        },
+        "sample_all_recall_at_k": {
+          "100": 0.839,
+          "200": 0.8695,
+          "400": 0.8825,
+          "50": 0.7885,
+          "800": 0.894
+        }
+      },
+      "fused": {
+        "label_recall_at_k": {
+          "100": 0.8945877018985549,
+          "200": 0.9175403797109662,
+          "400": 0.9266081042788326,
+          "50": 0.8568999716633607,
+          "800": 0.9325587985264947
+        },
+        "sample_all_recall_at_k": {
+          "100": 0.839,
+          "200": 0.8685,
+          "400": 0.8825,
+          "50": 0.791,
+          "800": 0.891
+        }
+      },
+      "sparse": {
+        "label_recall_at_k": {
+          "100": 0.7639557948427317,
+          "200": 0.8135449135732502,
+          "400": 0.8591669028053273,
+          "50": 0.6967979597619722,
+          "800": 0.8860867101161802
+        },
+        "sample_all_recall_at_k": {
+          "100": 0.6685,
+          "200": 0.73,
+          "400": 0.785,
+          "50": 0.5865,
+          "800": 0.821
+        }
+      }
+    },
+    "samples": 2000
+  },
+  "official_dev_touched": true,
+  "output_sha256": {
+    "official_dev_candidates.jsonl.gz": "1898e585b96559bdd63b406c156067bc0fa4cfde7cabb0fe3deff829581282b4",
+    "official_train_candidates.jsonl.gz": "356c028cc15d23d45abeed2faddfd01a86fbd45a84e11ec197ef9281fbeb3cda"
+  },
+  "protocol": "Strict-ICD",
+  "runtime": {
+    "device": "cuda",
+    "elapsed_seconds": 143.18996453285217,
+    "gpu_name": "NVIDIA A100-SXM4-40GB",
+    "peak_memory_bytes": 7292303360,
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "transformers": "4.57.6"
+  },
+  "selection_complete": true,
+  "selection_split": null,
+  "spec_id": "MEDNORM-P1-003",
+  "stage": "O7_OFFICIAL_DEV_RETRIEVAL",
+  "train_split": "official_train",
+  "training": {
+    "batch_size": 128,
+    "executed_epochs": 1,
+    "gradient_accumulation": 1,
+    "hard_negative_count": 8,
+    "learning_rate": 2e-05,
+    "max_length": 48,
+    "optimizer_steps": 45,
+    "planned_epochs": 4,
+    "seed": 2026,
+    "training_records": 5742,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01
+  }
+}

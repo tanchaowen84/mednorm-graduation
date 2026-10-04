@@ -1,0 +1,2 @@
+PUBLIC MEDNORM research materials
+Download all 10 MEDNORM_public_2026-10-04.zip.001 ... .010 parts, parts_manifest.json and merge_complete.py into one folder. Run python3 merge_complete.py, then extract the verified ZIP. Part sizes vary; use parts_manifest.json. Enter MEDNORM_正式资料与模型_2026-10-03/项目 and run python3 检查资料包.py --all-files --models. Raw medical data: obtain from official sources described in 实验/数据/README.md.

@@ -1,0 +1,31 @@
+# Rebuildable local files
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.DS_Store
+# Local credentials
+.env
+.env.*
+*.pem
+*.key
+# Large models and original datasets
+archive/
+*.safetensors
+*.pt
+*.pth
+*.bin
+实验/数据/raw/
+实验/数据/processed/
+!实验/数据/processed/
+实验/数据/processed/*
+!实验/数据/processed/phase1_v3/
+实验/数据/processed/phase1_v3/*
+!实验/数据/processed/phase1_v3/strict/
+实验/数据/processed/phase1_v3/strict/*
+!实验/数据/processed/phase1_v3/strict/official_fulltrain/
+实验/数据/processed/phase1_v3/strict/official_fulltrain/*
+!实验/数据/processed/phase1_v3/strict/official_fulltrain/prototype/
+云端正式模型/
+实验/融合复算结果/

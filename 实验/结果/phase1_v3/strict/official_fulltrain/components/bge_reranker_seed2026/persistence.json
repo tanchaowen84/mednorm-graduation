@@ -1,0 +1,97 @@
+{
+  "component": "bge_reranker",
+  "drive_root": "gdrive:毕业设计/MEDNORM-P1-003-official-fulltrain-v1",
+  "job": "bge_reranker_seed2026",
+  "model_remote": "gdrive:毕业设计/MEDNORM-P1-003-official-fulltrain-v1/models/bge_reranker/seed2026/best_model",
+  "precision": "float16",
+  "remote_files": [
+    {
+      "Hashes": {
+        "MD5": "ba4ce8c349d4dbde6f19068d61ead17b"
+      },
+      "ID": "1OgPE5CVlaj2mZhgpTrLPTceJo-_6YGub",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-22T21:28:56.220Z",
+      "Name": "FP16_EXPORT_MANIFEST.json",
+      "Path": "FP16_EXPORT_MANIFEST.json",
+      "Size": 2136
+    },
+    {
+      "Hashes": {
+        "MD5": "8ca145eb7fdfe3e859ad62fde93444aa"
+      },
+      "ID": "1uo6AuN8yX-q7I3ciYjt4rkGvmHuhjU9N",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-22T21:28:46.175Z",
+      "Name": "tokenizer.json",
+      "Path": "tokenizer.json",
+      "Size": 17083152
+    },
+    {
+      "Hashes": {
+        "MD5": "bf25eb5120ad92ef5c7d8596b5dc4046"
+      },
+      "ID": "1wF3FyWhSTGd9GNHEe7oVB0sn8BfgbV36",
+      "IsDir": false,
+      "MimeType": "application/octet-stream",
+      "ModTime": "2026-08-22T21:28:46.126Z",
+      "Name": "sentencepiece.bpe.model",
+      "Path": "sentencepiece.bpe.model",
+      "Size": 5069051
+    },
+    {
+      "Hashes": {
+        "MD5": "33e57d2dda50a13c4c62ed8afb6c6773"
+      },
+      "ID": "1qwPUOYQCN265bqg6tetixwSohh2_KsGv",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-22T21:28:46.124Z",
+      "Name": "special_tokens_map.json",
+      "Path": "special_tokens_map.json",
+      "Size": 964
+    },
+    {
+      "Hashes": {
+        "MD5": "ea97a85921e25983f1828cf59b30854c"
+      },
+      "ID": "1rIRNQ5Z1hmJc6GtYDXW8-QlK9WaCWXfW",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-22T21:28:46.123Z",
+      "Name": "tokenizer_config.json",
+      "Path": "tokenizer_config.json",
+      "Size": 1393
+    },
+    {
+      "Hashes": {
+        "MD5": "1463fde4f0bb1b14c5fb2a358995178e"
+      },
+      "ID": "153JPveGQqNa1KgKF9Qv1ZbKyR1TiCkC6",
+      "IsDir": false,
+      "MimeType": "application/octet-stream",
+      "ModTime": "2026-08-22T21:28:46.118Z",
+      "Name": "model.safetensors",
+      "Path": "model.safetensors",
+      "Size": 1135559698
+    },
+    {
+      "Hashes": {
+        "MD5": "916b853ccb6c23b7064d1ff15a0e779e"
+      },
+      "ID": "1-TjLybnpMa8g4Ka3u3ZraepXwxSzLdon",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-22T21:28:45.546Z",
+      "Name": "config.json",
+      "Path": "config.json",
+      "Size": 756
+    }
+  ],
+  "report_remote": "gdrive:毕业设计/MEDNORM-P1-003-official-fulltrain-v1/reports/bge_reranker/seed2026",
+  "resume_training_supported": false,
+  "seed": 2026,
+  "status": "VERIFIED"
+}

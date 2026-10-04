@@ -1,0 +1,181 @@
+{
+  "audit_used": true,
+  "component": "kg_atomic_macbert",
+  "config_id": "O4-FUSION-HGB15-W8-v1",
+  "decoder": {
+    "candidate_k": 400,
+    "retrieval_weight": 1.0,
+    "selection_source": "prior tune split"
+  },
+  "evaluation_split": "official_dev",
+  "fixed_count_report_sha256": "306346384df5256921db567e678b03d9a99c35a328a2f8543cd989174c5b482c",
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 395,
+      "train_loss": 0.4148019689509435
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 395,
+      "train_loss": 0.24597519430295295
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 395,
+      "train_loss": 0.17082315498988968
+    }
+  ],
+  "input_manifest": {
+    "audit_used": true,
+    "candidate_k": 400,
+    "candidate_source": "full-train BGE plus sparse RRF plus CPubMed-KG profiles",
+    "candidate_vocabulary_source": "ICD only",
+    "config_id": "O4-FUSION-HGB15-W8-v1",
+    "counts": {
+      "base_train_groups": 5742,
+      "icd_candidate_count": 37645,
+      "official_dev_samples": 2000,
+      "official_train_groups": 6305,
+      "official_train_samples": 6000,
+      "profile_aliases": 592,
+      "profiled_candidates": 466,
+      "relation_hard_negative_pairs": 4094,
+      "relation_hard_negative_samples": 1755,
+      "synthetic_alias_groups": 563
+    },
+    "evaluation_split": "official_dev",
+    "input_sha256": {
+      "aliases": "9275b786cf005052d69e2b1a815c56637f230baf55a4e222152b0bb6ef33e547",
+      "catalog": "97da4cd30fc9b66e48453293c6b5527151c29ee2789d479780f70ab7b25b8e8a",
+      "edges": "9f424061a21ac469819f537b18220f93b91b90645a238bcea77d8b807fcea7bf",
+      "official_dev_candidates": "a435d624373e307701ac859d50c06f21c273db08510ff8ab9c63d0966da9ccba",
+      "official_train_count": "1e5ef6f33ba0c9427bb89d2f1fdd04ebe3076833387509e1f816db6d499d6cbe",
+      "official_train_groups": "454b3f90d752958cf4b49c1d73c6287c298d7a92190cb7907f9fe9cb78afaf45",
+      "ranking_manifest": "5a03cbfd58b99d0efc1f3607d1d0a18c6719116393168f96e1da3be597ed90ca",
+      "retriever_report": "086fd73715e4cb32481541f15f1e8117576bc41b5990fbf2f52bdc758d079c42",
+      "retriever_train_candidates": "356c028cc15d23d45abeed2faddfd01a86fbd45a84e11ec197ef9281fbeb3cda"
+    },
+    "kg_enabled": true,
+    "kg_policy": {
+      "alias_edge": "direct one-hop only",
+      "alias_typed_as_disease": true,
+      "alias_unambiguous": true,
+      "maximum_profile_aliases": 3,
+      "minimum_alias_dice": 0.3,
+      "negative_relations": [
+        "鉴别诊断",
+        "并发症"
+      ],
+      "relation_hard_negative_count": 4,
+      "retrieval_head_before_relation_negatives": 4,
+      "synthetic_aliases_per_candidate": 2,
+      "synthetic_hard_negative_count": 8,
+      "transitive_closure": false
+    },
+    "leakage_policy": "CPubMed-KG profiles and synthetic alias supervision are external and fixed. Official-dev labels are copied only into evaluation bundles and are never read while building profiles or training groups.",
+    "method": "ICD standard names plus frozen CPubMed-KG one-hop profiles",
+    "negative_pool_size": 100,
+    "official_dev_touched": true,
+    "output_sha256": {
+      "official_dev_candidates.jsonl.gz": "86b1c26f69054091374da2eda24c35292788225135cdde4c4839a3d9c1accef5",
+      "official_train_count.jsonl.gz": "1e5ef6f33ba0c9427bb89d2f1fdd04ebe3076833387509e1f816db6d499d6cbe",
+      "official_train_groups.jsonl.gz": "35323d63153702fb510d0bd214f72b3521a33fac3c35e29982543a407f2d19dc"
+    },
+    "protocol": "Strict-ICD",
+    "selection_complete": true,
+    "selection_split": null,
+    "spec_id": "MEDNORM-P1-003",
+    "stage": "O6_OFFICIAL_FULLTRAIN_PROFILE_DATA",
+    "train_split": "official_train"
+  },
+  "input_manifest_sha256": "fd868f5ce1dd8504cbefd7216ce54994ce34aa0059b40d0664b2786b01214d54",
+  "leakage_policy": "The epoch and decoder weight were frozen before official dev. Dev labels are used only for reporting after all ranker scores are fixed.",
+  "model": {
+    "checkpoint_precision": "float32",
+    "frozen_epoch": 3,
+    "name": "hfl/chinese-macbert-large",
+    "requested_revision": "1cf2677c782975600ce58e2961656b1b29eddbae",
+    "resolved_revision": "1cf2677c782975600ce58e2961656b1b29eddbae",
+    "sha256": "b9928441eae896d38cb37631a8afef41e97027ddbabf431f46929fede8357941"
+  },
+  "official_dev": {
+    "samples": 2000,
+    "segmented": {
+      "all": {
+        "exact_match": 0.4015,
+        "false_negatives": 1242,
+        "false_positives": 1119,
+        "micro_f1": 0.6595529920692141,
+        "micro_precision": 0.6714621256605989,
+        "micro_recall": 0.6480589402096911,
+        "sample_count": 2000,
+        "true_positives": 2287
+      },
+      "icd_covered": {
+        "exact_match": 0.4387978142076503,
+        "false_negatives": 1023,
+        "false_positives": 916,
+        "micro_f1": 0.6959385290889133,
+        "micro_precision": 0.7078149920255183,
+        "micro_recall": 0.6844540407156077,
+        "sample_count": 1830,
+        "true_positives": 2219
+      },
+      "multi_entity": {
+        "exact_match": 0.37732160312805474,
+        "false_negatives": 814,
+        "false_positives": 484,
+        "micro_f1": 0.728110599078341,
+        "micro_precision": 0.7821782178217822,
+        "micro_recall": 0.6810344827586207,
+        "sample_count": 1023,
+        "true_positives": 1738
+      },
+      "single_entity": {
+        "exact_match": 0.42681678607983625,
+        "false_negatives": 428,
+        "false_positives": 635,
+        "micro_f1": 0.5080981027302175,
+        "micro_precision": 0.46368243243243246,
+        "micro_recall": 0.5619242579324463,
+        "sample_count": 977,
+        "true_positives": 549
+      }
+    }
+  },
+  "official_dev_touched": true,
+  "output_sha256": {
+    "best_model/model.safetensors": "b9928441eae896d38cb37631a8afef41e97027ddbabf431f46929fede8357941",
+    "official_dev_scored_predictions.jsonl.gz": "bb780b291c0aec87e59500aae8260f4eba5368500d527f18debe2e5e465f6d65"
+  },
+  "protocol": "Strict-ICD",
+  "runtime": {
+    "amp_dtype": "torch.bfloat16",
+    "device": "cuda",
+    "elapsed_seconds": 780.5139918327332,
+    "gpu_name": "NVIDIA A100-SXM4-40GB",
+    "peak_memory_bytes": 7092615168,
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128"
+  },
+  "selection_complete": true,
+  "selection_split": null,
+  "spec_id": "MEDNORM-P1-003",
+  "stage": "O7_OFFICIAL_DEV_KG_ATOMIC_MACBERT_RANKER",
+  "train_split": "official_train",
+  "training": {
+    "executed_epochs": 3,
+    "gradient_accumulation": 2,
+    "group_batch_size": 8,
+    "groups": 6305,
+    "learning_rate": 2e-05,
+    "loss_mode": "pointwise",
+    "negative_count": 15,
+    "planned_epochs": 4,
+    "seed": 2026,
+    "top_hard_count": 8,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01
+  }
+}

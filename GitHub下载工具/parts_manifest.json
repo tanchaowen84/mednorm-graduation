@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "original_name": "MEDNORM_public_2026-10-04.zip",
+  "original_size": 9977497576,
+  "original_sha256": "560bc09549962225eeaceae3d38513170778655d103549070c7261b308b93815",
+  "parts": [
+    {
+      "name": "MEDNORM_public_2026-10-04.zip.001",
+      "size": 867509110,
+      "sha256": "104298c0c38e2c31bc34af7aba14443e31e0cd3519ec8560efe3c06ff2f0db1c"
+    },
+    {
+      "name": "MEDNORM_public_2026-10-04.zip.002",
+      "size": 1073741824,
+      "sha256": "2c6f5e423384a50125c5518f259278500ba5749d480cd17cd20963833a5bb67f"
+    },
+    {
+      "name": "MEDNORM_public_2026-10-04.zip.003",
+      "size": 1073741824,
+      "sha256": "e08cac2a660d0e26d5a532d9f1515cab8336f5df363ee728a908da281cbc31a8"
+    },
+    {
+      "name": "MEDNORM_public_2026-10-04.zip.004",
+      "size": 1073741824,
+      "sha256": "ae364d570b95151502ab5061c23c32f720222dda0d74326d8116085f08f24e11"
+    },
+    {
+      "name": "MEDNORM_public_2026-10-04.zip.005",
+      "size": 1073741824,
+      "sha256": "ef0e78f43218e9ac690b4513686978cd8e605e4bc4b39159bd535b081430930d"
+    },
+    {
+      "name": "MEDNORM_public_2026-10-04.zip.006",
+      "size": 1073741824,
+      "sha256": "a6ed799ab470ea2a0c3ad29488fb5831a21bcc4cb7b837b1d0c2b0077a679a29"
+    },
+    {
+      "name": "MEDNORM_public_2026-10-04.zip.007",
+      "size": 1073741824,
+      "sha256": "bbe2516a3b10c3b51ac39d764c6d3ed62ae881738e09b17d2d282a4efe5ddb06"
+    },
+    {
+      "name": "MEDNORM_public_2026-10-04.zip.008",
+      "size": 1073741824,
+      "sha256": "ad83a3a9c48eeb1ce95576fadd4b9204742d92d6745c3e5abf106c19a7598ed6"
+    },
+    {
+      "name": "MEDNORM_public_2026-10-04.zip.009",
+      "size": 1073741824,
+      "sha256": "f277822927cf7ad84407f90dcd1b9b3ba18c5acc7cb6dfb3fb0271fdde079c89"
+    },
+    {
+      "name": "MEDNORM_public_2026-10-04.zip.010",
+      "size": 520053874,
+      "sha256": "417ae4d36509076315a8ad894e491bb6459175916f00ff553f4657a51a0f3b0a"
+    }
+  ]
+}

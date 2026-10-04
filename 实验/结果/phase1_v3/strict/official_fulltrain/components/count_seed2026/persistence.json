@@ -1,0 +1,97 @@
+{
+  "component": "count",
+  "drive_root": "gdrive:毕业设计/MEDNORM-P1-003-official-fulltrain-v1",
+  "job": "count_seed2026",
+  "model_remote": "gdrive:毕业设计/MEDNORM-P1-003-official-fulltrain-v1/models/count/seed2026/best_model",
+  "precision": "float16",
+  "remote_files": [
+    {
+      "Hashes": {
+        "MD5": "91e9377211b1cc11d79bbb40e16b2bfc"
+      },
+      "ID": "1UOvq2qY4CvCRrqfL1FdnpUBaYp0kT4QK",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-22T20:06:37.207Z",
+      "Name": "FP16_EXPORT_MANIFEST.json",
+      "Path": "FP16_EXPORT_MANIFEST.json",
+      "Size": 2100
+    },
+    {
+      "Hashes": {
+        "MD5": "742c7b928991aab2308119f92298e6d1"
+      },
+      "ID": "1RiKsDYp7j_dTlmEegvhJOqKp4QH70Xcn",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-22T20:06:31.547Z",
+      "Name": "tokenizer.json",
+      "Path": "tokenizer.json",
+      "Size": 439387
+    },
+    {
+      "Hashes": {
+        "MD5": "3b5b76c4aef48ecf8cb3abaafe960f09"
+      },
+      "ID": "1MmclOtu05HqWHmAemHBBp_C7sM-dxueG",
+      "IsDir": false,
+      "MimeType": "text/plain",
+      "ModTime": "2026-08-22T20:06:31.545Z",
+      "Name": "vocab.txt",
+      "Path": "vocab.txt",
+      "Size": 109540
+    },
+    {
+      "Hashes": {
+        "MD5": "22f1c5d551d8609dc2beee17f28da0eb"
+      },
+      "ID": "1F2a8z8hiLh0LA_nPmbKSxpIRd4mVo6QA",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-22T20:06:31.541Z",
+      "Name": "tokenizer_config.json",
+      "Path": "tokenizer_config.json",
+      "Size": 1439
+    },
+    {
+      "Hashes": {
+        "MD5": "0d21dc8bbd9451f28b3609ed3dcb2375"
+      },
+      "ID": "11XJT1tgLGIooHElZ4Rru4rU7bnMaqiAM",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-22T20:06:31.541Z",
+      "Name": "special_tokens_map.json",
+      "Path": "special_tokens_map.json",
+      "Size": 695
+    },
+    {
+      "Hashes": {
+        "MD5": "658c7e9bcbdf505de9ece75b96136582"
+      },
+      "ID": "1s5QPjA43d3P52e5CfwDv3K9-tfhkD2OV",
+      "IsDir": false,
+      "MimeType": "application/octet-stream",
+      "ModTime": "2026-08-22T20:06:31.539Z",
+      "Name": "model.safetensors",
+      "Path": "model.safetensors",
+      "Size": 651097734
+    },
+    {
+      "Hashes": {
+        "MD5": "d645d4123862072986b0a1f6c7a4af5d"
+      },
+      "ID": "1drveHg6hQ-aztD_hAWn1OQURc9APIO1X",
+      "IsDir": false,
+      "MimeType": "application/json",
+      "ModTime": "2026-08-22T20:06:31.208Z",
+      "Name": "config.json",
+      "Path": "config.json",
+      "Size": 978
+    }
+  ],
+  "report_remote": "gdrive:毕业设计/MEDNORM-P1-003-official-fulltrain-v1/reports/count/seed2026",
+  "resume_training_supported": false,
+  "seed": 2026,
+  "status": "VERIFIED"
+}

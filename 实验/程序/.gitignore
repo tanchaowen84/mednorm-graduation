@@ -1,0 +1,17 @@
+# Licensed and large raw datasets are kept locally.
+data/raw/
+
+# Generated model and experiment artifacts.
+artifacts/
+outputs/
+checkpoints/
+data/processed/
+
+# Local Python and notebook files.
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store

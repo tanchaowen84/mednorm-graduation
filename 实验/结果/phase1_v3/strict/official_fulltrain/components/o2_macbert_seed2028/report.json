@@ -1,0 +1,159 @@
+{
+  "audit_used": true,
+  "component": "o2_macbert",
+  "config_id": "O4-FUSION-HGB15-W8-v1",
+  "decoder": {
+    "candidate_k": 400,
+    "retrieval_weight": 0.5,
+    "selection_source": "prior tune split"
+  },
+  "evaluation_split": "official_dev",
+  "fixed_count_report_sha256": "fb503fa4f01f2c3192d465db35fbc18682d9bb866d531954ad82248a7fdc4755",
+  "history": [
+    {
+      "epoch": 1,
+      "optimizer_updates": 359,
+      "train_loss": 0.43753310432009046
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 359,
+      "train_loss": 0.24801536978411806
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 359,
+      "train_loss": 0.16816093314252276
+    }
+  ],
+  "input_manifest": {
+    "audit_used": true,
+    "candidate_k": 400,
+    "candidate_source": "full-train BGE plus sparse RRF",
+    "candidate_vocabulary_source": "ICD only",
+    "config_id": "O4-FUSION-HGB15-W8-v1",
+    "counts": {
+      "covered_official_train_samples": 5742,
+      "icd_candidate_count": 37645,
+      "official_dev_samples": 2000,
+      "official_train_positive_labels": 10386,
+      "official_train_positive_labels_in_top_k": 10164,
+      "official_train_samples": 6000
+    },
+    "evaluation_split": "official_dev",
+    "input_sha256": {
+      "catalog": "97da4cd30fc9b66e48453293c6b5527151c29ee2789d479780f70ab7b25b8e8a",
+      "official_dev": "450115dafed5df45d7559edab55546f6f6d43dc9f439716210ad388d2e4b8865",
+      "official_dev_candidates": "1898e585b96559bdd63b406c156067bc0fa4cfde7cabb0fe3deff829581282b4",
+      "official_train": "8a600859d75287a608c3508e73c7041388b65be20a3a29430d57110cabb82cfe",
+      "official_train_candidates": "356c028cc15d23d45abeed2faddfd01a86fbd45a84e11ec197ef9281fbeb3cda",
+      "retriever_report": "086fd73715e4cb32481541f15f1e8117576bc41b5990fbf2f52bdc758d079c42"
+    },
+    "kg_enabled": false,
+    "leakage_policy": "Only official-train labels create ranking groups and count targets. Official-dev labels remain attached only to the final evaluation bundles.",
+    "negative_pool_size": 96,
+    "official_dev_touched": true,
+    "output_sha256": {
+      "official_dev_candidates.jsonl.gz": "a435d624373e307701ac859d50c06f21c273db08510ff8ab9c63d0966da9ccba",
+      "official_train_count.jsonl.gz": "1e5ef6f33ba0c9427bb89d2f1fdd04ebe3076833387509e1f816db6d499d6cbe",
+      "official_train_groups.jsonl.gz": "454b3f90d752958cf4b49c1d73c6287c298d7a92190cb7907f9fe9cb78afaf45"
+    },
+    "protocol": "Strict-ICD",
+    "rrf_constant": 60,
+    "seed": 2026,
+    "selection_complete": true,
+    "selection_split": null,
+    "spec_id": "MEDNORM-P1-003",
+    "stage": "O6_OFFICIAL_FULLTRAIN_RANKING_DATA",
+    "train_split": "official_train"
+  },
+  "input_manifest_sha256": "5a03cbfd58b99d0efc1f3607d1d0a18c6719116393168f96e1da3be597ed90ca",
+  "leakage_policy": "The epoch and decoder weight were frozen before official dev. Dev labels are used only for reporting after all ranker scores are fixed.",
+  "model": {
+    "checkpoint_precision": "float32",
+    "frozen_epoch": 3,
+    "name": "hfl/chinese-macbert-large",
+    "requested_revision": "1cf2677c782975600ce58e2961656b1b29eddbae",
+    "resolved_revision": "1cf2677c782975600ce58e2961656b1b29eddbae",
+    "sha256": "f25a14b646244bb2c7c081bcc01bb6bb6b1169f84763e6704b0ae435b5c2345b"
+  },
+  "official_dev": {
+    "samples": 2000,
+    "segmented": {
+      "all": {
+        "exact_match": 0.4095,
+        "false_negatives": 1235,
+        "false_positives": 1140,
+        "micro_f1": 0.6589113887692086,
+        "micro_precision": 0.668025626092021,
+        "micro_recall": 0.6500425049589119,
+        "sample_count": 2000,
+        "true_positives": 2294
+      },
+      "icd_covered": {
+        "exact_match": 0.44754098360655736,
+        "false_negatives": 1022,
+        "false_positives": 932,
+        "micro_f1": 0.6944010009383798,
+        "micro_precision": 0.7043147208121827,
+        "micro_recall": 0.6847624922887107,
+        "sample_count": 1830,
+        "true_positives": 2220
+      },
+      "multi_entity": {
+        "exact_match": 0.40078201368523947,
+        "false_negatives": 796,
+        "false_positives": 480,
+        "micro_f1": 0.733500417710944,
+        "micro_precision": 0.7853309481216458,
+        "micro_recall": 0.6880877742946708,
+        "sample_count": 1023,
+        "true_positives": 1756
+      },
+      "single_entity": {
+        "exact_match": 0.4186284544524053,
+        "false_negatives": 439,
+        "false_positives": 660,
+        "micro_f1": 0.4947126436781609,
+        "micro_precision": 0.44908180300500833,
+        "micro_recall": 0.5506653019447287,
+        "sample_count": 977,
+        "true_positives": 538
+      }
+    }
+  },
+  "official_dev_touched": true,
+  "output_sha256": {
+    "best_model/model.safetensors": "f25a14b646244bb2c7c081bcc01bb6bb6b1169f84763e6704b0ae435b5c2345b",
+    "official_dev_scored_predictions.jsonl.gz": "68c97b6ff1788687b48505fe41257bb56f420ae6bda26e3915d7828d5b25f2e5"
+  },
+  "protocol": "Strict-ICD",
+  "runtime": {
+    "amp_dtype": "torch.bfloat16",
+    "device": "cuda",
+    "elapsed_seconds": 708.4359905719757,
+    "gpu_name": "NVIDIA A100-SXM4-40GB",
+    "peak_memory_bytes": 7134432256,
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128"
+  },
+  "selection_complete": true,
+  "selection_split": null,
+  "spec_id": "MEDNORM-P1-003",
+  "stage": "O7_OFFICIAL_DEV_O2_MACBERT_RANKER",
+  "train_split": "official_train",
+  "training": {
+    "executed_epochs": 3,
+    "gradient_accumulation": 2,
+    "group_batch_size": 8,
+    "groups": 5742,
+    "learning_rate": 2e-05,
+    "loss_mode": "pointwise",
+    "negative_count": 15,
+    "planned_epochs": 4,
+    "seed": 2028,
+    "top_hard_count": 8,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01
+  }
+}
